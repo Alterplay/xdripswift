@@ -298,6 +298,8 @@ extension UserDefaults {
         /// - stored as data as read from transmitter
         case librePatchInfo = "librePatchInfo"
         
+        case userAgreementConfirmed = "userAgreementConfirmed"
+        
     }
     
     // MARK: - =====  User Configurable Settings ======
@@ -1529,6 +1531,15 @@ extension UserDefaults {
         }
         set {
             set(newValue, forKey: Key.librePatchInfo.rawValue)
+        }
+    }
+    
+    var isUserAgreementConfirmed: Bool {
+        get {
+            return bool(forKey: Key.userAgreementConfirmed.rawValue)
+        }
+        set {
+            set(newValue, forKey: Key.userAgreementConfirmed.rawValue)
         }
     }
     

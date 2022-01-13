@@ -20,6 +20,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         trace("in didFinishLaunchingWithOptions", log: log, category: ConstantsLog.categoryAppDelegate, type: .info)
         
+        var controller: UIViewController!
+        
+        if UserDefaults.standard.isUserAgreementConfirmed {
+            controller = createTabBarController()
+        } else {
+            controller = createConsentСollectionController()
+        }
+        
+        window = UIWindow()
+        window?.rootViewController = controller
+        window?.makeKeyAndVisible()
+        
         return true
         
     }
@@ -55,3 +67,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 }
 
+// MARK: - Private
+
+private extension AppDelegate {
+    
+    func createTabBarController() -> UIViewController {
+        return UIStoryboard(name: "Main", bundle: .main).instantiateViewController(withIdentifier: "TabBarViewController") as! TabBarViewController
+    }
+    
+    func createConsentСollectionController() -> UIViewController {
+        let controller = UIStoryboard(name: "ConsentСollectionController", bundle: .main).instantiateViewController(withIdentifier: "ConsentСollectionController") as! ConsentСollectionController
+        
+        controller.continueAction = { [weak self] in
+            self?.startApplication()
+        }
+        return controller
+    }
+    
+    
+    func startApplication() {
+        guard let window = window else { return }
+        window.rootViewController = createTabBarController()
+        window.makeKeyAndVisible()
+        
+        UIView.transition(with: window, duration: 0.3, options: .transitionCrossDissolve, animations: nil, completion: nil)
+    }
+}

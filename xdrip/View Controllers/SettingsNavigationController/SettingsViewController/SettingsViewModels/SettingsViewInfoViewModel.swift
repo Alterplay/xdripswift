@@ -12,7 +12,7 @@ fileprivate enum Setting:Int, CaseIterable {
     case licenseInfo = 2
     
     /// link to icons8
-    case icons8 = 3
+//    case icons8 = 3
     
 }
 
@@ -46,8 +46,8 @@ struct SettingsViewInfoViewModel:SettingsViewModelProtocol {
         case .buildNumber:
             return Texts_SettingsView.build
             
-        case .icons8:
-            return "Icons By icons8.com"
+//        case .icons8:
+//            return "Icons By icons8.com"
 
         }
         
@@ -68,8 +68,8 @@ struct SettingsViewInfoViewModel:SettingsViewModelProtocol {
         case .licenseInfo:
             return .detailButton
             
-        case .icons8:
-            return .disclosureIndicator
+//        case .icons8:
+//            return .disclosureIndicator
             
         }
         
@@ -101,9 +101,8 @@ struct SettingsViewInfoViewModel:SettingsViewModelProtocol {
             
             return nil
             
-        case .icons8:
-            
-            return nil
+//        case .icons8:
+//            return nil
 
         }
         
@@ -132,12 +131,10 @@ struct SettingsViewInfoViewModel:SettingsViewModelProtocol {
         case .licenseInfo:
             return SettingsSelectedRowAction.showInfoText(title: ConstantsHomeView.applicationName, message: Texts_HomeView.licenseInfo + ConstantsHomeView.infoEmailAddress)
 
-        case .icons8:
-            guard let url = URL(string: "https://icons8.com") else { return .nothing}
-            
-            UIApplication.shared.open(url)
-            
-            return .nothing
+//        case .icons8:
+//            guard let url = URL(string: "https://icons8.com") else { return .nothing}
+//            UIApplication.shared.open(url)
+//            return .nothing
             
         }
     }
