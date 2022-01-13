@@ -21,7 +21,7 @@
 "lastconnection" = "Senaste anslutning";
 "transmitterbatterylevel" = "Sändarens batterinivå";
 "ago" = "sedan";
-"licenseinfo" = "Denna programvara är gratis och distribuerad med villkor enligt GNU General Public License, version 3 eller senare, publicerad av Free Software Foundation.\r\n\nDenna programvara är utgiven I hopp om att vara användbar, men är UTAN NÅGON GARANTI.\r\n\nSe http://www.gnu.org/licenses/gpl.txt för mer detaljer.\r\n\r\nInfo: ";
+"licenseinfo" = "Denna programvara är gratis och distribuerad med villkor enligt GNU General Public License, version 3 eller senare, publicerad av Free Software Foundation.\r\n\nDenna programvara är utgiven I hopp om att vara användbar, men är UTAN NÅGON GARANTI.\r\n\nSe http://www.gnu.org/licenses/gpl.txt för mer detaljer.";
 "info" = "Var god läs";
 "transmitterinfo" = "Gå först till bluetooth-fönstret där du kan lägga till och scanna efter sändare.\r\n\nKom sedan tillbaka till hem-skärmen för att starta din sensor.";
 "startsensorbeforecalibration" = "Du kan inte kalibrera förrän du har startat en sensor.";

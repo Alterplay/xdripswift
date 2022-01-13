@@ -17,7 +17,7 @@
 "lastconnection" = "Última Ligação";
 "transmitterbatterylevel" = "Nível Bateria Transmissor";
 "ago" = "atrás";
-"licenseinfo" = "Este programa é programa grátis distribuído nos termos da Licença GNU General Public como publicado pela Free Software Foundation, ou versão 3 da Licença, ou outra versão mais recente.\r\n\nEste Programa é distribuído na esperança de ser útil, mas SEM QUALQUER GARANTIA.\r\n\nVeja http://www.gnu.org/licenses/gpl.txt para mais detalhes.\r\n\r\nInfo: ";
+"licenseinfo" = "Este programa é programa grátis distribuído nos termos da Licença GNU General Public como publicado pela Free Software Foundation, ou versão 3 da Licença, ou outra versão mais recente.\r\n\nEste Programa é distribuído na esperança de ser útil, mas SEM QUALQUER GARANTIA.\r\n\nVeja http://www.gnu.org/licenses/gpl.txt para mais detalhes.";
 "info" = "Leia, por favor";
 "transmitterinfo" = "Primeiro ir ao ecrã Bluetooth onde pode adicionar e pesquisar pelo transmissor.\r\n\nDepois voltar ao Ecrã Inicial e iniciar o sensor.";
 "startsensorbeforecalibration" = "Não pode calibrar a menos que tenha um sensor iniciado.";

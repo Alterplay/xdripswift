@@ -16,7 +16,7 @@ enum ConstantsSounds: String, CaseIterable {
     case shortlow3  = "Short Low 3/shortlow3.mp3"
     case shortlow4  = "Short Low 4/shortlow4.mp3"
     case spaceship = "Space Ship/spaceship.mp3"
-    case xdripalert = "xDrip Alert/xdripalert.aif"
+    case xdripalert = "Shuggah Alert/xdripalert.aif"
     
     // copied from Spike project https://github.com/SpikeApp/Spike/tree/master/src/assets/sounds
     case Alarm_Buzzer = "Alarm Buzzer/Alarm_Buzzer.caf"
