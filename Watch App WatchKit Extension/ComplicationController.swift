@@ -18,7 +18,7 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
     // at the moment we're just going to define two complication family types and we'll leave them blank so that the complication image displays as a shortcut to open the app
     func getComplicationDescriptors(handler: @escaping ([CLKComplicationDescriptor]) -> Void) {
         let descriptors = [
-            CLKComplicationDescriptor(identifier: "complication", displayName: "xDrip4iO5", supportedFamilies: [CLKComplicationFamily.modularSmall, CLKComplicationFamily.graphicCircular])
+            CLKComplicationDescriptor(identifier: "complication", displayName: "Shuggah", supportedFamilies: [CLKComplicationFamily.modularSmall, CLKComplicationFamily.graphicCircular])
             // Multiple complication support can be added here with more descriptors
         ]
         
