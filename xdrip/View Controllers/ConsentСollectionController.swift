@@ -29,11 +29,13 @@ private extension ConsentСollectionController {
     
     func setupCheckboxButton() {
         checkboxButton.setImage(UIImage(named: "rectangle"), for: .normal)
-        checkboxButton.setImage(UIImage(named: "checkbox"), for: .selected)
+        checkboxButton.setImage(UIImage(named: "checkBox"), for: .selected)
         checkboxButton.tintColor = .clear
     }
     
     func setupContinueButton() {
+        continueButton.setTitleColor(UIColor.gray, for: .disabled)
+        continueButton.setTitleColor(UIColor.white, for: .normal)
         continueButton.isEnabled = false
         continueButton.layer.cornerRadius = 10
     }
