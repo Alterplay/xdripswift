@@ -31,6 +31,24 @@
 		6D12E3A427903483005E57F0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D12E3A327903483005E57F0 /* TabBarViewController.swift */; };
 		6D12E3A6279034BF005E57F0 /* ConsentСollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D12E3A5279034BF005E57F0 /* ConsentСollectionController.swift */; };
 		6D12E3A82790352E005E57F0 /* ConsentСollectionController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D12E3A72790352E005E57F0 /* ConsentСollectionController.storyboard */; };
+		6D8C9F9D2823FFAB002CB654 /* TextsNightScout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9F9C2823FFAB002CB654 /* TextsNightScout.swift */; };
+		6D8C9F9F2824000C002CB654 /* TreatmentEntryAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9F9E2824000C002CB654 /* TreatmentEntryAccessor.swift */; };
+		6D8C9FA22824009C002CB654 /* TreatmentEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FA02824009C002CB654 /* TreatmentEntry+CoreDataClass.swift */; };
+		6D8C9FA32824009C002CB654 /* TreatmentEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FA12824009C002CB654 /* TreatmentEntry+CoreDataProperties.swift */; };
+		6D8C9FA5282401B3002CB654 /* SettingsViewTreatmentsSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FA4282401B3002CB654 /* SettingsViewTreatmentsSettingsViewModel.swift */; };
+		6D8C9FA928240251002CB654 /* TextsTreatmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FA828240251002CB654 /* TextsTreatmentsView.swift */; };
+		6D8C9FAB282402B1002CB654 /* ConstantsHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FAA282402B1002CB654 /* ConstantsHomeView.swift */; };
+		6D8C9FB228240337002CB654 /* TreatmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FAF28240337002CB654 /* TreatmentsViewController.swift */; };
+		6D8C9FB328240337002CB654 /* TreatmentsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FB128240337002CB654 /* TreatmentsNavigationController.swift */; };
+		6D8C9FB428240337002CB654 /* TreatmentsInsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FAE28240337002CB654 /* TreatmentsInsertViewController.swift */; };
+		6D8C9FB528240337002CB654 /* TreatmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FB028240337002CB654 /* TreatmentTableViewCell.swift */; };
+		6D8C9FB9282403DD002CB654 /* ChartPointsScatterDownTrianglesLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FB7282403DC002CB654 /* ChartPointsScatterDownTrianglesLayer.swift */; };
+		6D8C9FBA282403DD002CB654 /* ChartPointsScatterDownTrianglesWithDropdownLineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FB8282403DD002CB654 /* ChartPointsScatterDownTrianglesWithDropdownLineLayer.swift */; };
+		6D8C9FBE282403F9002CB654 /* DateOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FBB282403F9002CB654 /* DateOnly.swift */; };
+		6D8C9FBF282403F9002CB654 /* TreatmentNSResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FBD282403F9002CB654 /* TreatmentNSResponse.swift */; };
+		6D8C9FC0282403F9002CB654 /* TreatmentCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FBC282403F9002CB654 /* TreatmentCollection.swift */; };
+		6D8C9FC5282404D2002CB654 /* QuickActionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FC4282404D2002CB654 /* QuickActionsManager.swift */; };
+		6D8C9FC828240506002CB654 /* TextsQuickActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FC728240505002CB654 /* TextsQuickActions.swift */; };
 		CE1B2FE025D0264B00F642F5 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2FD125D0264900F642F5 /* LaunchScreen.strings */; };
 		CE1B2FE125D0264B00F642F5 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2FD425D0264900F642F5 /* Main.strings */; };
 		F51B9F7D24B216CD00FC0643 /* Libre1NonFixedSlopeCalibrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B9F7C24B216CD00FC0643 /* Libre1NonFixedSlopeCalibrator.swift */; };
@@ -346,7 +364,6 @@
 		F8AF120124B9082000AE5BA2 /* Calibration+NightScout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AF120024B9082000AE5BA2 /* Calibration+NightScout.swift */; };
 		F8AF36152455C6F700B5977B /* ConstantsTrace.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AF36142455C6F700B5977B /* ConstantsTrace.swift */; };
 		F8AF361B245D93EE00B5977B /* Int16.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AF361A245D93ED00B5977B /* Int16.swift */; };
-		F8B3A783225D37F2004BA588 /* TextsNightScoutTestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3A782225D37F2004BA588 /* TextsNightScoutTestResult.swift */; };
 		F8B3A786225D4473004BA588 /* NightScoutTestResult.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8B3A788225D4473004BA588 /* NightScoutTestResult.strings */; };
 		F8B3A78B225D473D004BA588 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3A78A225D473D004BA588 /* UIAlertController.swift */; };
 		F8B3A78E22622954004BA588 /* AlertType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3A78C22622953004BA588 /* AlertType+CoreDataClass.swift */; };
@@ -666,6 +683,24 @@
 		6D12E3A327903483005E57F0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		6D12E3A5279034BF005E57F0 /* ConsentСollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConsentСollectionController.swift"; sourceTree = "<group>"; };
 		6D12E3A72790352E005E57F0 /* ConsentСollectionController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "ConsentСollectionController.storyboard"; sourceTree = "<group>"; };
+		6D8C9F9C2823FFAB002CB654 /* TextsNightScout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextsNightScout.swift; sourceTree = "<group>"; };
+		6D8C9F9E2824000C002CB654 /* TreatmentEntryAccessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreatmentEntryAccessor.swift; sourceTree = "<group>"; };
+		6D8C9FA02824009C002CB654 /* TreatmentEntry+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TreatmentEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6D8C9FA12824009C002CB654 /* TreatmentEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TreatmentEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6D8C9FA4282401B3002CB654 /* SettingsViewTreatmentsSettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewTreatmentsSettingsViewModel.swift; sourceTree = "<group>"; };
+		6D8C9FA828240251002CB654 /* TextsTreatmentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextsTreatmentsView.swift; sourceTree = "<group>"; };
+		6D8C9FAA282402B1002CB654 /* ConstantsHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsHomeView.swift; sourceTree = "<group>"; };
+		6D8C9FAE28240337002CB654 /* TreatmentsInsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentsInsertViewController.swift; sourceTree = "<group>"; };
+		6D8C9FAF28240337002CB654 /* TreatmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentsViewController.swift; sourceTree = "<group>"; };
+		6D8C9FB028240337002CB654 /* TreatmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentTableViewCell.swift; sourceTree = "<group>"; };
+		6D8C9FB128240337002CB654 /* TreatmentsNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentsNavigationController.swift; sourceTree = "<group>"; };
+		6D8C9FB7282403DC002CB654 /* ChartPointsScatterDownTrianglesLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartPointsScatterDownTrianglesLayer.swift; sourceTree = "<group>"; };
+		6D8C9FB8282403DD002CB654 /* ChartPointsScatterDownTrianglesWithDropdownLineLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartPointsScatterDownTrianglesWithDropdownLineLayer.swift; sourceTree = "<group>"; };
+		6D8C9FBB282403F9002CB654 /* DateOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateOnly.swift; sourceTree = "<group>"; };
+		6D8C9FBC282403F9002CB654 /* TreatmentCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentCollection.swift; sourceTree = "<group>"; };
+		6D8C9FBD282403F9002CB654 /* TreatmentNSResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentNSResponse.swift; sourceTree = "<group>"; };
+		6D8C9FC4282404D2002CB654 /* QuickActionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionsManager.swift; sourceTree = "<group>"; };
+		6D8C9FC728240505002CB654 /* TextsQuickActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextsQuickActions.swift; sourceTree = "<group>"; };
 		CE1B2FC825D0261500F642F5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Alerts.strings; sourceTree = "<group>"; };
 		CE1B2FCD25D0264900F642F5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/AlertTypesSettingsView.strings; sourceTree = "<group>"; };
 		CE1B2FCE25D0264900F642F5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/WatlaaView.strings; sourceTree = "<group>"; };
@@ -1189,7 +1224,6 @@
 		F8AF120024B9082000AE5BA2 /* Calibration+NightScout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Calibration+NightScout.swift"; sourceTree = "<group>"; };
 		F8AF36142455C6F700B5977B /* ConstantsTrace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTrace.swift; sourceTree = "<group>"; };
 		F8AF361A245D93ED00B5977B /* Int16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Int16.swift; sourceTree = "<group>"; };
-		F8B3A782225D37F2004BA588 /* TextsNightScoutTestResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextsNightScoutTestResult.swift; sourceTree = "<group>"; };
 		F8B3A787225D4473004BA588 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/NightScoutTestResult.strings; sourceTree = "<group>"; };
 		F8B3A78A225D473D004BA588 /* UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
 		F8B3A78C22622953004BA588 /* AlertType+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertType+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -1513,6 +1547,35 @@
 				170A1629CB2C62ADD901F4A6 /* Pods-xdrip.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D8C9FB628240341002CB654 /* Treatments */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C9FAE28240337002CB654 /* TreatmentsInsertViewController.swift */,
+				6D8C9FB128240337002CB654 /* TreatmentsNavigationController.swift */,
+				6D8C9FAF28240337002CB654 /* TreatmentsViewController.swift */,
+				6D8C9FB028240337002CB654 /* TreatmentTableViewCell.swift */,
+			);
+			path = Treatments;
+			sourceTree = "<group>";
+		};
+		6D8C9FC128240403002CB654 /* Treatments */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C9FBB282403F9002CB654 /* DateOnly.swift */,
+				6D8C9FBC282403F9002CB654 /* TreatmentCollection.swift */,
+				6D8C9FBD282403F9002CB654 /* TreatmentNSResponse.swift */,
+			);
+			path = Treatments;
+			sourceTree = "<group>";
+		};
+		6D8C9FC6282404D8002CB654 /* QuickActions */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C9FC4282404D2002CB654 /* QuickActionsManager.swift */,
+			);
+			path = QuickActions;
 			sourceTree = "<group>";
 		};
 		F8025C0B21D9513400ECF0C0 /* Extensions */ = {
@@ -1893,6 +1956,7 @@
 		F85DC2F621D25E3A00B9F74A /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				6D8C9FC6282404D8002CB654 /* QuickActions */,
 				47FB28052636AFE700042FFB /* Statistics */,
 				F821CF48229BF43A005C1E43 /* Alerts */,
 				F821CF54229BF43A005C1E43 /* Application */,
@@ -1942,6 +2006,7 @@
 		F85DC2FA21D2CD3000B9F74A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				6D8C9FB628240341002CB654 /* Treatments */,
 				F8297F47238DCAD800D74D66 /* BluetoothPeripheralsNavigationController */,
 				F8B3A806227A28F9004BA588 /* Helpers */,
 				F8025E5921F7861200ECF0C0 /* Root View Controller */,
@@ -2093,6 +2158,7 @@
 		F8AC425C21ADEBD60078C348 /* xdrip */ = {
 			isa = PBXGroup;
 			children = (
+				6D8C9FC128240403002CB654 /* Treatments */,
 				F8A5EEC5257EDC910085E660 /* xdripDebug.entitlements */,
 				F85DC2FB21D2CD7000B9F74A /* Application Delegate */,
 				F8F971AD23A5914C00C3F17D /* BluetoothPeripheral */,
@@ -2287,6 +2353,7 @@
 		F8B3A814227DEA69004BA588 /* accessors */ = {
 			isa = PBXGroup;
 			children = (
+				6D8C9F9E2824000C002CB654 /* TreatmentEntryAccessor.swift */,
 				F8B3A816227DEC91004BA588 /* AlertEntriesAccessor.swift */,
 				F8B3A81A227DEC92004BA588 /* AlertTypesAccessor.swift */,
 				F8B3A818227DEC92004BA588 /* BgReadingsAccessor.swift */,
@@ -2357,6 +2424,7 @@
 				4752B4052635878E0081D551 /* SettingsViewStatisticsSettingsViewModel.swift */,
 				470F021226DD515300C5D626 /* SettingsViewSensorCountdownSettingsViewModel.swift */,
 				47AB72F227105EF4005E7CAB /* SettingsViewHelpSettingModel.swift */,
+				6D8C9FA4282401B3002CB654 /* SettingsViewTreatmentsSettingsViewModel.swift */,
 			);
 			path = SettingsViewModels;
 			sourceTree = "<group>";
@@ -2400,6 +2468,8 @@
 		F8BDD44C221CAA26006EAB84 /* Texts */ = {
 			isa = PBXGroup;
 			children = (
+				6D8C9FC728240505002CB654 /* TextsQuickActions.swift */,
+				6D8C9F9C2823FFAB002CB654 /* TextsNightScout.swift */,
 				F8297F57238EE14E00D74D66 /* TextsBluetoothPeripheralsView.swift */,
 				F8297F58238EE14E00D74D66 /* TextsBluetoothPeripheralView.swift */,
 				F8B3A7B1226A0878004BA588 /* TextsAlerts.swift */,
@@ -2409,7 +2479,6 @@
 				F81D6D4D22BFC762005EFAE2 /* TextsDexcomShareTestResult.swift */,
 				F8BDD43E221B5BAF006EAB84 /* TextsErrorMessages.swift */,
 				F81FA009228F53680028C70F /* TextsHomeView.swift */,
-				F8B3A782225D37F2004BA588 /* TextsNightScoutTestResult.swift */,
 				F8BDD451221DEAB1006EAB84 /* TextsSettingsView.swift */,
 				F8B48A9322B2A705009BCC01 /* TextsSpeakReading.swift */,
 				F869188B23A044340065B607 /* TextsM5StackView.swift */,
@@ -2418,6 +2487,7 @@
 				F82436FB24BE014000BED341 /* TextsLibreStates.swift */,
 				F8E6C78F24CEC22A007C1199 /* TextsSnooze.swift */,
 				F8A5EEB7257CF2940085E660 /* TextsLibreNFC.swift */,
+				6D8C9FA828240251002CB654 /* TextsTreatmentsView.swift */,
 			);
 			path = Texts;
 			sourceTree = "<group>";
@@ -2433,6 +2503,8 @@
 		F8BECB03235CE5970060DAE1 /* Charts */ = {
 			isa = PBXGroup;
 			children = (
+				6D8C9FB7282403DC002CB654 /* ChartPointsScatterDownTrianglesLayer.swift */,
+				6D8C9FB8282403DD002CB654 /* ChartPointsScatterDownTrianglesWithDropdownLineLayer.swift */,
 				F8BECB04235CE5D80060DAE1 /* GlucoseChartManager.swift */,
 			);
 			path = Charts;
@@ -2546,6 +2618,7 @@
 				F8A1586E22EDC7EE007F5B5D /* ConstantsSuspensionPrevention.swift */,
 				F8AF36142455C6F700B5977B /* ConstantsTrace.swift */,
 				F8E3A2AA23DA520B00E5E98A /* ConstantsWatch.swift */,
+				6D8C9FAA282402B1002CB654 /* ConstantsHomeView.swift */,
 				4752B3FF263570DA0081D551 /* ConstantsStatistics.swift */,
 			);
 			name = Constants;
@@ -2610,6 +2683,8 @@
 				F85FF3CC252F9FD7004E6FF1 /* SnoozeParameters+CoreDataProperties.swift */,
 				F830991A23C2909E005741DF /* Watlaa+CoreDataClass.swift */,
 				F830991B23C2909E005741DF /* Watlaa+CoreDataProperties.swift */,
+				6D8C9FA02824009C002CB654 /* TreatmentEntry+CoreDataClass.swift */,
+				6D8C9FA12824009C002CB654 /* TreatmentEntry+CoreDataProperties.swift */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -3387,6 +3462,7 @@
 				F8EA6C8221B723BC0082976B /* Date.swift in Sources */,
 				F8E3A2A523D78FBD00E5E98A /* SettingsViewAppleWatchSettingsViewModel.swift in Sources */,
 				F81FA006228E09D40028C70F /* TextsCalibration.swift in Sources */,
+				6D8C9FBA282403DD002CB654 /* ChartPointsScatterDownTrianglesWithDropdownLineLayer.swift in Sources */,
 				F816E0F724367137009EE65B /* GNSEntry+CoreDataClass.swift in Sources */,
 				F8F9721923A5915900C3F17D /* CGMGNSEntryTransmitter.swift in Sources */,
 				F8B3A84A227F090E004BA588 /* SettingsViewGeneralSettingsViewModel.swift in Sources */,
@@ -3421,6 +3497,7 @@
 				F8797CEA255B43960033956B /* GlucoseData+Smoothable.swift in Sources */,
 				F821CF9022AB1068005C1E43 /* DatePickerViewData.swift in Sources */,
 				F8F9722623A5915900C3F17D /* BluconTransmitterOpCode.swift in Sources */,
+				6D8C9FAB282402B1002CB654 /* ConstantsHomeView.swift in Sources */,
 				F8025E4E21ED450300ECF0C0 /* Double.swift in Sources */,
 				F8F9723423A5915900C3F17D /* BluetoothTransmitterDelegate.swift in Sources */,
 				F8F9724923A69DAE00C3F17D /* M5StickC.swift in Sources */,
@@ -3432,6 +3509,7 @@
 				F85DC2F521CFE3D400B9F74A /* BgReading+CoreDataClass.swift in Sources */,
 				F816E11C2439243B009EE65B /* Droplet+CoreDataProperties.swift in Sources */,
 				F821CF56229BF43A005C1E43 /* AlertKind.swift in Sources */,
+				6D8C9FB228240337002CB654 /* TreatmentsViewController.swift in Sources */,
 				F85DC2ED21CFE2F500B9F74A /* BgReading+CoreDataProperties.swift in Sources */,
 				F8A2BC0D25DB0B12001D1E78 /* Atom+BluetoothPeripheral.swift in Sources */,
 				F8F9723123A5915900C3F17D /* M5StackAuthenticateTXMessage.swift in Sources */,
@@ -3461,11 +3539,13 @@
 				F81D6D4822BD5F62005EFAE2 /* DexcomShareUploadManager.swift in Sources */,
 				F8C9784D2428052E00A09483 /* CGMSensorType.swift in Sources */,
 				F8A1586B22EDB967007F5B5D /* ConstantsMaster.swift in Sources */,
+				6D8C9FBF282403F9002CB654 /* TreatmentNSResponse.swift in Sources */,
 				F8F9723923A5928D00C3F17D /* M5StackBluetoothPeripheralViewModel.swift in Sources */,
 				F8F9722B23A5915900C3F17D /* CGMTransmitterDelegate.swift in Sources */,
 				F80859292364D61B00F3829D /* UserDefaults+charts.swift in Sources */,
 				F8B955B7258D5E2000C06016 /* ConstantsHealthKit.swift in Sources */,
 				F8B3A7B2226A0878004BA588 /* TextsAlerts.swift in Sources */,
+				6D8C9FA32824009C002CB654 /* TreatmentEntry+CoreDataProperties.swift in Sources */,
 				F80D917024F85C7A006840B5 /* Libre2+BluetoothPeripheral.swift in Sources */,
 				F8F9721423A5915900C3F17D /* AuthChallengeRxMessage.swift in Sources */,
 				47B60F3726F389E2003198D3 /* LandscapeChartViewController.swift in Sources */,
@@ -3535,6 +3615,7 @@
 				F8177023248CF78300AA3600 /* LibreSensorType.swift in Sources */,
 				F8C97859242AAE7B00A09483 /* MiaoMiao+BluetoothPeripheral.swift in Sources */,
 				F8EEDD5422FF685400D2D610 /* NSMutableURLRequest.swift in Sources */,
+				6D8C9FB428240337002CB654 /* TreatmentsInsertViewController.swift in Sources */,
 				F897AAFB2201018800CDDD10 /* String.swift in Sources */,
 				F8B3A847227F090E004BA588 /* SettingsViewNightScoutSettingsViewModel.swift in Sources */,
 				F8B3A79622635A25004BA588 /* AlertEntry+CoreDataClass.swift in Sources */,
@@ -3575,11 +3656,11 @@
 				F8A1585922EDB7C6007F5B5D /* ConstantsDefaultAlertLevels.swift in Sources */,
 				F8A54AAD22D6859200934E7A /* SlopeParameters.swift in Sources */,
 				F830993023C928E0005741DF /* WatlaaBluetoothTransmitterDelegate.swift in Sources */,
-				F8B3A783225D37F2004BA588 /* TextsNightScoutTestResult.swift in Sources */,
 				F8025C0A21D94FD700ECF0C0 /* CBManagerState.swift in Sources */,
 				F8F9722723A5915900C3F17D /* CGMBluconTransmitter.swift in Sources */,
 				F8E3A2A923D906C200E5E98A /* WatchManager.swift in Sources */,
 				F8B3A80A227A3D11004BA588 /* TextsAlertTypeSettings.swift in Sources */,
+				6D8C9FB9282403DD002CB654 /* ChartPointsScatterDownTrianglesLayer.swift in Sources */,
 				F85FF39125288870004E6FF1 /* HouseKeeper.swift in Sources */,
 				F8CB59C42739D1CD00BA199E /* DexcomBackfillTxMessage.swift in Sources */,
 				F8F9721823A5915900C3F17D /* CGMBlueReaderTransmitter.swift in Sources */,
@@ -3626,6 +3707,7 @@
 				F8F9721723A5915900C3F17D /* CGMDroplet1Transmitter.swift in Sources */,
 				F8A2BC2E25DB0D6D001D1E78 /* BluetoothPeripheralManager+CGMDropletTransmitterDelegate.swift in Sources */,
 				F8C5EBE722F38F0E00563B5F /* Trace.swift in Sources */,
+				6D8C9FA5282401B3002CB654 /* SettingsViewTreatmentsSettingsViewModel.swift in Sources */,
 				F8B48A9422B2A705009BCC01 /* TextsSpeakReading.swift in Sources */,
 				F8CB59CC2744471100BA199E /* DexcomSessionStartResponse.swift in Sources */,
 				47AB72F327105EF4005E7CAB /* SettingsViewHelpSettingModel.swift in Sources */,
@@ -3635,10 +3717,14 @@
 				F808592D23677D6A00F3829D /* ChartPoint.swift in Sources */,
 				F8A2BC0425DB093B001D1E78 /* Atom+CoreDataClass.swift in Sources */,
 				F8F9722823A5915900C3F17D /* BluconUtilities.swift in Sources */,
+				6D8C9F9F2824000C002CB654 /* TreatmentEntryAccessor.swift in Sources */,
+				6D8C9FA22824009C002CB654 /* TreatmentEntry+CoreDataClass.swift in Sources */,
 				F8F9724723A69A8000C3F17D /* BluetoothPeripheralCategory.swift in Sources */,
 				F8B3A79522635A25004BA588 /* AlertType+CoreDataProperties.swift in Sources */,
 				F8A2BBFD25D9D386001D1E78 /* AtomBluetoothPeripheralViewModel.swift in Sources */,
+				6D8C9FA928240251002CB654 /* TextsTreatmentsView.swift in Sources */,
 				6D12E3A6279034BF005E57F0 /* ConsentСollectionController.swift in Sources */,
+				6D8C9FC0282403F9002CB654 /* TreatmentCollection.swift in Sources */,
 				F8AF11FA24B1FB3500AE5BA2 /* DexcomError.swift in Sources */,
 				F8B3A84C227F090E004BA588 /* SettingsViewController.swift in Sources */,
 				F88EC27A260120C000DF0EAF /* ConstantsAlerts.swift in Sources */,
@@ -3651,6 +3737,7 @@
 				F8F9720E23A5915900C3F17D /* AuthRequestRxMessage.swift in Sources */,
 				F8A2BC3F25DB0D89001D1E78 /* BluetoothPeripheralManager+CGMAtomTransmitterDelegate.swift in Sources */,
 				F8BDD4242218790E006EAB84 /* UserDefaults.swift in Sources */,
+				6D8C9F9D2823FFAB002CB654 /* TextsNightScout.swift in Sources */,
 				F81D6D5222C27F18005EFAE2 /* BgReading+DexcomShare.swift in Sources */,
 				F8F9723023A5915900C3F17D /* M5StackUtilities.swift in Sources */,
 				F8297F52238ECA3200D74D66 /* BluetoothPeripheralViewController.swift in Sources */,
@@ -3661,6 +3748,7 @@
 				F8F9722D23A5915900C3F17D /* M5StackBluetoothTransmitter.swift in Sources */,
 				F808D2C8240323CA0084B5DB /* BubbleBluetoothPeripheralViewModel.swift in Sources */,
 				F8E6C79024CEC22A007C1199 /* TextsSnooze.swift in Sources */,
+				6D8C9FB328240337002CB654 /* TreatmentsNavigationController.swift in Sources */,
 				F8F9722C23A5915900C3F17D /* GlucoseData.swift in Sources */,
 				F8A389E7232ECE7E0010F405 /* SettingsViewUtilities.swift in Sources */,
 				F8A2BC3125DB0D6D001D1E78 /* BluetoothPeripheralManager+M5StackBluetoothTransmitterDelegate.swift in Sources */,
@@ -3672,7 +3760,9 @@
 				F8B3A820227DEC92004BA588 /* AlertTypesAccessor.swift in Sources */,
 				F8F9720623A5915900C3F17D /* AuthRequestTxMessage.swift in Sources */,
 				F8F9721123A5915900C3F17D /* KeepAliveTxMessage.swift in Sources */,
+				6D8C9FC828240506002CB654 /* TextsQuickActions.swift in Sources */,
 				F8B3A81E227DEC92004BA588 /* BgReadingsAccessor.swift in Sources */,
+				6D8C9FB528240337002CB654 /* TreatmentTableViewCell.swift in Sources */,
 				F8F1671327274557001AA3D8 /* DexcomCalibrationRxMessage.swift in Sources */,
 				F8E51D63244B3386001C9E5A /* MiaoMiaoResponseType.swift in Sources */,
 				F821CF6B229FC22D005C1E43 /* Endpoint.swift in Sources */,
@@ -3713,6 +3803,7 @@
 				F85FF3D1252F9FF9004E6FF1 /* SnoozeParameters+CoreDataClass.swift in Sources */,
 				F857A32A253E2D9E00951BB2 /* LibreAlgorithmThresholds.swift in Sources */,
 				F8A1850C25643B16000EF8A0 /* Double+Smoothable.swift in Sources */,
+				6D8C9FC5282404D2002CB654 /* QuickActionsManager.swift in Sources */,
 				F8CB59C8273EF9F800BA199E /* DexcomAlgorithmState.swift in Sources */,
 				F890E07A247687AE008FB2EC /* URL.swift in Sources */,
 				F8B3A856227F28DC004BA588 /* AlertTypeSettingsViewController.swift in Sources */,
@@ -3723,6 +3814,7 @@
 				F8A1585F22EDB81E007F5B5D /* ConstantsLog.swift in Sources */,
 				F8284230274ED56A0097E0C9 /* DexcomCalibrationParameters.swift in Sources */,
 				F8A1586522EDB89D007F5B5D /* ConstantsDefaultAlertTypeSettings.swift in Sources */,
+				6D8C9FBE282403F9002CB654 /* DateOnly.swift in Sources */,
 				6D12E3A427903483005E57F0 /* TabBarViewController.swift in Sources */,
 				F816E11624391A02009EE65B /* Droplet+BluetoothPeripheral.swift in Sources */,
 				F8FDFEAD260DE1B90047597D /* ConstantsUI.swift in Sources */,
@@ -4553,7 +4645,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(XDRIP_ENTITLEMENTS_DEBUG)";
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_DEBUG)";
 				CODE_SIGN_STYLE = "$(XDRIP_CODE_SIGN_STYLE)";
-				CURRENT_PROJECT_VERSION = 4174;
+				CURRENT_PROJECT_VERSION = 4177;
 				DEVELOPMENT_TEAM = 3A5U6YJ8JE;
 				INFOPLIST_FILE = "$(SRCROOT)/xdrip/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -4561,7 +4653,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.9.0;
+				MARKETING_VERSION = 4.10.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alty.xdripswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4583,7 +4675,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(XDRIP_ENTITLEMENTS_RELEASE)";
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_RELEASE)";
 				CODE_SIGN_STYLE = "$(XDRIP_CODE_SIGN_STYLE)";
-				CURRENT_PROJECT_VERSION = 4174;
+				CURRENT_PROJECT_VERSION = 4177;
 				DEVELOPMENT_TEAM = 3A5U6YJ8JE;
 				INFOPLIST_FILE = "$(SRCROOT)/xdrip/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -4591,7 +4683,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.9.0;
+				MARKETING_VERSION = 4.10.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alty.xdripswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
