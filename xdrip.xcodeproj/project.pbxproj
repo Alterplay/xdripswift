@@ -4382,7 +4382,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.alty.xdripswift;
 				MAIN_APP_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				MARKETING_VERSION = 4.10.1;
+				MARKETING_VERSION = 4.10.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.watchkitapp-new";
 				PRODUCT_NAME = Shuggah;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4411,7 +4411,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.alty.xdripswift;
 				MAIN_APP_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				MARKETING_VERSION = 4.10.1;
+				MARKETING_VERSION = 4.10.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.watchkitapp-new";
 				PRODUCT_NAME = Shuggah;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4444,7 +4444,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MAIN_APP_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				MARKETING_VERSION = 4.10.1;
+				MARKETING_VERSION = 4.10.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.watchkitapp-new.watchkitextension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -4476,7 +4476,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MAIN_APP_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				MARKETING_VERSION = 4.10.1;
+				MARKETING_VERSION = 4.10.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.watchkitapp-new.watchkitextension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -4504,7 +4504,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 4.10.1;
+				MARKETING_VERSION = 4.10.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.xDrip4iOS-Widget-new";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -4529,7 +4529,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 4.10.1;
+				MARKETING_VERSION = 4.10.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.xDrip4iOS-Widget-new";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -4679,7 +4679,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.10.1;
+				MARKETING_VERSION = 4.10.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alty.xdripswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4709,7 +4709,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.10.1;
+				MARKETING_VERSION = 4.10.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alty.xdripswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
