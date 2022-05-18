@@ -24,8 +24,10 @@ enum QuickActionType: String {
     /// Icon is displayed nex to the tile in the long-press menu on the iOS home screen
     private var icon: UIApplicationShortcutIcon {
         switch self {
-            case .speakReadings: return .init(systemImageName: "speaker.wave.2")
-            case .stopSpeakingReadings: return .init(systemImageName: "speaker.slash")
+        case .speakReadings:
+            return .init(templateImageName: "speaker.wave.2")
+        case .stopSpeakingReadings:
+            return .init(templateImageName: "speaker.slash")
         }
     }
     
