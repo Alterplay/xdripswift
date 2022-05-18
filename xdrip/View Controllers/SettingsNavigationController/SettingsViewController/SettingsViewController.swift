@@ -27,7 +27,7 @@ final class SettingsViewController: UIViewController {
     private enum Section: Int, CaseIterable, SettingsProtocol {
         
         /// help section - open help and offer translation
-//        case help
+        case help
         
         ///General settings - language, glucose unit
         case general
@@ -77,8 +77,8 @@ final class SettingsViewController: UIViewController {
         func viewModel(coreDataManager: CoreDataManager?) -> SettingsViewModelProtocol {
             switch self {
                 
-//            case .help:
-//                return SettingsViewHelpSettingsViewModel()
+            case .help:
+                return SettingsViewHelpSettingsViewModel()
             case .general:
                 return SettingsViewGeneralSettingsViewModel(coreDataManager: coreDataManager)
             case .homescreen:
