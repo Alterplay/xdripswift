@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if UserDefaults.standard.isUserAgreementConfirmed {
             controller = createTabBarController()
         } else {
-            controller = createConsentСollectionController()
+            controller = creatWelcomeViewController()
         }
         
         window = UIWindow()
@@ -86,15 +86,27 @@ private extension AppDelegate {
         return UIStoryboard(name: "Main", bundle: .main).instantiateViewController(withIdentifier: "TabBarViewController") as! TabBarViewController
     }
     
-    func createConsentСollectionController() -> UIViewController {
-        let controller = UIStoryboard(name: "ConsentСollectionController", bundle: .main).instantiateViewController(withIdentifier: "ConsentСollectionController") as! ConsentСollectionController
+    func creatWelcomeViewController() -> UIViewController {
+        let welcomeViewController = UIStoryboard(name: "WelcomeViewController", bundle: .main).instantiateViewController(withIdentifier: "WelcomeViewController") as! WelcomeViewController
+        let navigationController = UINavigationController(rootViewController: welcomeViewController)
         
-        controller.continueAction = { [weak self] in
-            self?.startApplication()
+        welcomeViewController.nextAction = { [weak self] in
+            guard let oneLastThingViewController = self?.createOneLastThingViewController() else { return }
+            navigationController.pushViewController(oneLastThingViewController, animated: true)
         }
-        return controller
+        
+        return navigationController
     }
     
+    func createOneLastThingViewController() -> OneLastThingViewController {
+        let oneLastThingViewController = UIStoryboard(name: "OneLastThingViewController", bundle: .main).instantiateViewController(withIdentifier: "OneLastThingViewController") as! OneLastThingViewController
+        
+        oneLastThingViewController.nextAction = { [weak self] in
+            self?.startApplication()
+        }
+        
+        return oneLastThingViewController
+    }
     
     func startApplication() {
         guard let window = window else { return }
