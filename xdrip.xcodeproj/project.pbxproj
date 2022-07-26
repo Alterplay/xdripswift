@@ -55,6 +55,9 @@
 		6DA5E05128350E030035A821 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E05028350E030035A821 /* WelcomeViewController.swift */; };
 		CE1B2FE025D0264B00F642F5 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2FD125D0264900F642F5 /* LaunchScreen.strings */; };
 		CE1B2FE125D0264B00F642F5 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2FD425D0264900F642F5 /* Main.strings */; };
+		D417E51C282EC8DB008DC467 /* ProgressBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D417E51B282EC8DB008DC467 /* ProgressBarViewController.swift */; };
+		D41F32922827240E00861B3D /* SettingsViewHousekeeperSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41F32912827240E00861B3D /* SettingsViewHousekeeperSettingsViewModel.swift */; };
+		D41F32942827332000861B3D /* DataExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41F32932827332000861B3D /* DataExporter.swift */; };
 		F51B9F7D24B216CD00FC0643 /* Libre1NonFixedSlopeCalibrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51B9F7C24B216CD00FC0643 /* Libre1NonFixedSlopeCalibrator.swift */; };
 		F8025C0A21D94FD700ECF0C0 /* CBManagerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8025C0921D94FD700ECF0C0 /* CBManagerState.swift */; };
 		F8025C1321DA683400ECF0C0 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8025C1221DA683400ECF0C0 /* Data.swift */; };
@@ -728,6 +731,9 @@
 		CE1B2FDE25D0264B00F642F5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Snooze.strings; sourceTree = "<group>"; };
 		CE1B2FDF25D0264B00F642F5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/BluetoothPeripheralView.strings; sourceTree = "<group>"; };
 		CE1B2FE425D026B400F642F5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Common.strings; sourceTree = "<group>"; };
+		D417E51B282EC8DB008DC467 /* ProgressBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarViewController.swift; sourceTree = "<group>"; };
+		D41F32912827240E00861B3D /* SettingsViewHousekeeperSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewHousekeeperSettingsViewModel.swift; sourceTree = "<group>"; };
+		D41F32932827332000861B3D /* DataExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExporter.swift; sourceTree = "<group>"; };
 		F51B9F7C24B216CD00FC0643 /* Libre1NonFixedSlopeCalibrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Libre1NonFixedSlopeCalibrator.swift; sourceTree = "<group>"; };
 		F8025C0921D94FD700ECF0C0 /* CBManagerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBManagerState.swift; sourceTree = "<group>"; };
 		F8025C1221DA683400ECF0C0 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -1358,6 +1364,25 @@
 		F8CB59CD27444D6300BA199E /* DexcomSessionStopResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexcomSessionStopResponse.swift; sourceTree = "<group>"; };
 		F8CB59D2274D94AE00BA199E /* DexcomSessionStartTxMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexcomSessionStartTxMessage.swift; sourceTree = "<group>"; };
 		F8D0587B24BCB570008C8734 /* SettingsViewHomeScreenSettingsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewHomeScreenSettingsViewModel.swift; sourceTree = "<group>"; };
+		F8D094EB2846BDD50087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Common.strings; sourceTree = "<group>"; };
+		F8D094ED2846BDD50087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Alerts.strings; sourceTree = "<group>"; };
+		F8D094EE2846BDD50087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/AlertTypesSettingsView.strings; sourceTree = "<group>"; };
+		F8D094EF2846BDD50087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/BluetoothPeripheralsView.strings; sourceTree = "<group>"; };
+		F8D094F02846BDD50087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/BluetoothPeripheralView.strings; sourceTree = "<group>"; };
+		F8D094F12846BDD60087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/CalibrationRequest.strings; sourceTree = "<group>"; };
+		F8D094F22846BDD60087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Common.strings; sourceTree = "<group>"; };
+		F8D094F32846BDD60087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/DexcomShareTestResult.strings; sourceTree = "<group>"; };
+		F8D094F42846BDD60087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/ErrorMessages.strings; sourceTree = "<group>"; };
+		F8D094F52846BDD60087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/HomeView.strings; sourceTree = "<group>"; };
+		F8D094F62846BDD60087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/M5StackView.strings; sourceTree = "<group>"; };
+		F8D094F72846BDD60087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/NightScoutTestResult.strings; sourceTree = "<group>"; };
+		F8D094F82846BDD60087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/SettingsViews.strings; sourceTree = "<group>"; };
+		F8D094F92846BDD60087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/SpeakReading.strings; sourceTree = "<group>"; };
+		F8D094FA2846BDD70087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/WatlaaView.strings; sourceTree = "<group>"; };
+		F8D094FB2846BDD70087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LibreErrors.strings; sourceTree = "<group>"; };
+		F8D094FC2846BDD70087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LibreStates.strings; sourceTree = "<group>"; };
+		F8D094FD2846BDD70087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Snooze.strings; sourceTree = "<group>"; };
+		F8D094FE2846BDD70087FFEA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LibreNFC.strings; sourceTree = "<group>"; };
 		F8DF765223E34F4500063910 /* DexcomG5+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DexcomG5+CoreDataClass.swift"; sourceTree = "<group>"; };
 		F8DF765423E34FD500063910 /* DexcomG5+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DexcomG5+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F8DF765B23E350B100063910 /* DexcomG5+BluetoothPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DexcomG5+BluetoothPeripheral.swift"; sourceTree = "<group>"; };
@@ -2050,6 +2075,7 @@
 			isa = PBXGroup;
 			children = (
 				F85FF39025288870004E6FF1 /* HouseKeeper.swift */,
+				D41F32932827332000861B3D /* DataExporter.swift */,
 			);
 			path = HouseKeeping;
 			sourceTree = "<group>";
@@ -2366,6 +2392,7 @@
 				F8B3A82E227F085A004BA588 /* SettingsTableViewCell */,
 				F8B3A7F22278E0E7004BA588 /* SettingsViewModelProtocol.swift */,
 				F8B3A807227A2933004BA588 /* SettingsSelectedRowAction.swift */,
+				D417E51B282EC8DB008DC467 /* ProgressBarViewController.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -2445,6 +2472,7 @@
 				470F021226DD515300C5D626 /* SettingsViewSensorCountdownSettingsViewModel.swift */,
 				47AB72F227105EF4005E7CAB /* SettingsViewHelpSettingModel.swift */,
 				6D8C9FA4282401B3002CB654 /* SettingsViewTreatmentsSettingsViewModel.swift */,
+				D41F32912827240E00861B3D /* SettingsViewHousekeeperSettingsViewModel.swift */,
 			);
 			path = SettingsViewModels;
 			sourceTree = "<group>";
@@ -3197,6 +3225,9 @@
 				fi,
 				es,
 				sv,
+				tr,
+				da,
+				uk,
 			);
 			mainGroup = F8AC425121ADEBD60078C348;
 			productRefGroup = F8AC425B21ADEBD60078C348 /* Products */;
@@ -3621,6 +3652,7 @@
 				F8B3A830227F085A004BA588 /* SettingsTableViewCell.swift in Sources */,
 				F82436FC24BE014000BED341 /* TextsLibreStates.swift in Sources */,
 				F8F7B8EB259A7B1C00C47B04 /* SavitzkyGolaySmoothableArray.swift in Sources */,
+				D417E51C282EC8DB008DC467 /* ProgressBarViewController.swift in Sources */,
 				F830991C23C2909E005741DF /* Watlaa+CoreDataClass.swift in Sources */,
 				F808D2CC240328FA0084B5DB /* Bubble+CoreDataClass.swift in Sources */,
 				F8A1586122EDB844007F5B5D /* ConstantsNotifications.swift in Sources */,
@@ -3787,6 +3819,7 @@
 				6D8C9FC828240506002CB654 /* TextsQuickActions.swift in Sources */,
 				F8B3A81E227DEC92004BA588 /* BgReadingsAccessor.swift in Sources */,
 				6D8C9FB528240337002CB654 /* TreatmentTableViewCell.swift in Sources */,
+				D41F32942827332000861B3D /* DataExporter.swift in Sources */,
 				F8F1671327274557001AA3D8 /* DexcomCalibrationRxMessage.swift in Sources */,
 				F8E51D63244B3386001C9E5A /* MiaoMiaoResponseType.swift in Sources */,
 				F821CF6B229FC22D005C1E43 /* Endpoint.swift in Sources */,
@@ -3840,6 +3873,7 @@
 				F8A1586522EDB89D007F5B5D /* ConstantsDefaultAlertTypeSettings.swift in Sources */,
 				6D8C9FBE282403F9002CB654 /* DateOnly.swift in Sources */,
 				6D12E3A427903483005E57F0 /* TabBarViewController.swift in Sources */,
+				D41F32922827240E00861B3D /* SettingsViewHousekeeperSettingsViewModel.swift in Sources */,
 				F816E11624391A02009EE65B /* Droplet+BluetoothPeripheral.swift in Sources */,
 				F8FDFEAD260DE1B90047597D /* ConstantsUI.swift in Sources */,
 			);
@@ -3891,6 +3925,7 @@
 				F81F3BFC25D0945000520946 /* sl */,
 				F81F3C1025D096C000520946 /* zh */,
 				198D44C6260A3A3300A2B4A2 /* sv */,
+				F8D094EF2846BDD50087FFEA /* uk */,
 			);
 			name = BluetoothPeripheralsView.strings;
 			sourceTree = "<group>";
@@ -3912,6 +3947,7 @@
 				F81F3C0825D0949500520946 /* sl */,
 				F81F3C0925D094CF00520946 /* zh */,
 				198D44D8260A3A3400A2B4A2 /* sv */,
+				F8D094FE2846BDD70087FFEA /* uk */,
 			);
 			name = LibreNFC.strings;
 			sourceTree = "<group>";
@@ -3933,6 +3969,7 @@
 				F81F3BFD25D0945400520946 /* sl */,
 				F81F3C0F25D096BC00520946 /* zh */,
 				198D44C7260A3A3300A2B4A2 /* sv */,
+				F8D094F02846BDD50087FFEA /* uk */,
 			);
 			name = BluetoothPeripheralView.strings;
 			sourceTree = "<group>";
@@ -3971,6 +4008,7 @@
 				F88EC12425F6CFC200DF0EAF /* fi */,
 				F88EC12525F6CFC500DF0EAF /* sl */,
 				198D44D3260A3A3400A2B4A2 /* sv */,
+				F8D094FA2846BDD70087FFEA /* uk */,
 			);
 			name = WatlaaView.strings;
 			sourceTree = "<group>";
@@ -3992,6 +4030,7 @@
 				F81F3C0625D0948D00520946 /* sl */,
 				F81F3C0B25D0968D00520946 /* zh */,
 				198D44D6260A3A3400A2B4A2 /* sv */,
+				F8D094FC2846BDD70087FFEA /* uk */,
 			);
 			name = LibreStates.strings;
 			sourceTree = "<group>";
@@ -4023,6 +4062,7 @@
 				F81F3C0325D0947300520946 /* sl */,
 				F81F3C0E25D096A900520946 /* zh */,
 				198D44CE260A3A3400A2B4A2 /* sv */,
+				F8D094F62846BDD60087FFEA /* uk */,
 			);
 			name = M5StackView.strings;
 			sourceTree = "<group>";
@@ -4086,6 +4126,7 @@
 				F81F3C0525D0948A00520946 /* sl */,
 				F81F3C0C25D0969100520946 /* zh */,
 				198D44D5260A3A3400A2B4A2 /* sv */,
+				F8D094FB2846BDD70087FFEA /* uk */,
 			);
 			name = LibreErrors.strings;
 			sourceTree = "<group>";
@@ -4107,6 +4148,7 @@
 				F81F3BF325D093EA00520946 /* ru */,
 				F81F3C0425D0947E00520946 /* sl */,
 				198D44CF260A3A3400A2B4A2 /* sv */,
+				F8D094F72846BDD60087FFEA /* uk */,
 			);
 			name = NightScoutTestResult.strings;
 			sourceTree = "<group>";
@@ -4128,6 +4170,7 @@
 				F81F3BE925D093A400520946 /* ru */,
 				F81F3BFA25D0944900520946 /* sl */,
 				198D44C4260A3A3300A2B4A2 /* sv */,
+				F8D094ED2846BDD50087FFEA /* uk */,
 			);
 			name = Alerts.strings;
 			sourceTree = "<group>";
@@ -4149,6 +4192,7 @@
 				F81F3BEA25D093AD00520946 /* ru */,
 				F81F3BFB25D0944D00520946 /* sl */,
 				198D44C5260A3A3300A2B4A2 /* sv */,
+				F8D094EE2846BDD50087FFEA /* uk */,
 			);
 			name = AlertTypesSettingsView.strings;
 			sourceTree = "<group>";
@@ -4170,6 +4214,7 @@
 				F81F39E625C616AF00520946 /* de */,
 				F81F3A7025C9E5A800520946 /* es */,
 				198D44D2260A3A3400A2B4A2 /* sv */,
+				F8D094F92846BDD60087FFEA /* uk */,
 			);
 			name = SpeakReading.strings;
 			sourceTree = "<group>";
@@ -4191,6 +4236,7 @@
 				F81F3BF125D093D000520946 /* ru */,
 				F81F3C0225D0946500520946 /* sl */,
 				198D44CC260A3A3400A2B4A2 /* sv */,
+				F8D094F52846BDD60087FFEA /* uk */,
 			);
 			name = HomeView.strings;
 			sourceTree = "<group>";
@@ -4212,6 +4258,7 @@
 				F81F3BED25D093BB00520946 /* ru */,
 				F81F3BFE25D0945700520946 /* sl */,
 				198D44C8260A3A3300A2B4A2 /* sv */,
+				F8D094F12846BDD60087FFEA /* uk */,
 			);
 			name = CalibrationRequest.strings;
 			sourceTree = "<group>";
@@ -4254,6 +4301,7 @@
 				F81F3BEE25D093C000520946 /* ru */,
 				F81F3BFF25D0945A00520946 /* sl */,
 				198D44C9260A3A3300A2B4A2 /* sv */,
+				F8D094F22846BDD60087FFEA /* uk */,
 			);
 			name = Common.strings;
 			sourceTree = "<group>";
@@ -4275,6 +4323,7 @@
 				F81F3BF025D093CB00520946 /* ru */,
 				F81F3C0125D0946100520946 /* sl */,
 				198D44CB260A3A3300A2B4A2 /* sv */,
+				F8D094F42846BDD60087FFEA /* uk */,
 			);
 			name = ErrorMessages.strings;
 			sourceTree = "<group>";
@@ -4296,6 +4345,7 @@
 				F81F3BF425D093F200520946 /* ru */,
 				F88EC12325F6CFB200DF0EAF /* sl */,
 				198D44D1260A3A3400A2B4A2 /* sv */,
+				F8D094F82846BDD60087FFEA /* uk */,
 			);
 			name = SettingsViews.strings;
 			sourceTree = "<group>";
@@ -4317,6 +4367,7 @@
 				F88EC17625FABAB700DF0EAF /* ru */,
 				F88EC17725FABAB800DF0EAF /* sl */,
 				198D44C3260A3A3300A2B4A2 /* sv */,
+				F8D094EB2846BDD50087FFEA /* uk */,
 			);
 			name = Common.strings;
 			sourceTree = "<group>";
@@ -4338,6 +4389,7 @@
 				F81F3C0725D0949100520946 /* sl */,
 				F81F3C0A25D094D300520946 /* zh */,
 				198D44D7260A3A3400A2B4A2 /* sv */,
+				F8D094FD2846BDD70087FFEA /* uk */,
 			);
 			name = Snooze.strings;
 			sourceTree = "<group>";
@@ -4359,6 +4411,7 @@
 				F81F3BEF25D093C700520946 /* ru */,
 				F81F3C0025D0945E00520946 /* sl */,
 				198D44CA260A3A3300A2B4A2 /* sv */,
+				F8D094F32846BDD60087FFEA /* uk */,
 			);
 			name = DexcomShareTestResult.strings;
 			sourceTree = "<group>";
@@ -4382,7 +4435,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.alty.xdripswift;
 				MAIN_APP_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				MARKETING_VERSION = 4.10.2;
+				MARKETING_VERSION = 4.10.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.watchkitapp-new";
 				PRODUCT_NAME = Shuggah;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4411,7 +4464,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.alty.xdripswift;
 				MAIN_APP_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				MARKETING_VERSION = 4.10.2;
+				MARKETING_VERSION = 4.10.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.watchkitapp-new";
 				PRODUCT_NAME = Shuggah;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4444,7 +4497,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MAIN_APP_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				MARKETING_VERSION = 4.10.2;
+				MARKETING_VERSION = 4.10.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.watchkitapp-new.watchkitextension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -4476,7 +4529,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MAIN_APP_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				MARKETING_VERSION = 4.10.2;
+				MARKETING_VERSION = 4.10.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.watchkitapp-new.watchkitextension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -4504,7 +4557,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 4.10.2;
+				MARKETING_VERSION = 4.10.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.xDrip4iOS-Widget-new";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -4529,7 +4582,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 4.10.2;
+				MARKETING_VERSION = 4.10.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.xDrip4iOS-Widget-new";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -4679,7 +4732,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.10.2;
+				MARKETING_VERSION = 4.10.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alty.xdripswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4709,7 +4762,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.10.2;
+				MARKETING_VERSION = 4.10.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alty.xdripswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
