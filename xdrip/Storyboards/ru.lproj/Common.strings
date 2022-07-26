@@ -3,158 +3,146 @@
 /////   Translation needed - remove this header after translation                       /////
 /////////////////////////////////////////////////////////////////////////////////////////////
 
-/// literally 'OK'
-"common_Ok" = "OK";
-
-/// blood glucose unit in short, for text field title
-"common_bloodglucoseunit_short" = "BG Unit";
-
-/// for settings row, literally firmware
-"firmware" = "Firmware";
-
 /// literal translation needed
-"common_minute" = "min";
-
-/// on
-"on" = "On";
-
-/// red
-"red" = "red";
-
-/// mmol/l
-"common_mmol" = "mmol/l";
-
-/// the word LOW, in capitals
-"common_low" = "LOW";
-
-/// literal translation needed
-"common_day" = "day";
-
-/// 
-"off" = "Off";
-
-/// for settings row, literally hardware
-"hardware" = "Hardware";
-
-/// literal translation needed
-"common_week" = "week";
-
-/// to show the sensor status
-"sensorStatus" = "Sensor status:";
-
-/// can be used in several screens, just the words Bloodglucose unit
-"common_bloodglucoseunit" = "Blood Glucose Unit";
-
-/// literal translation needed
-"common_hours" = "hours";
-
-/// literally default, will be the name of default alerttypes that will be created during initial app launch
-"common_default" = "Default";
-
-/// literally add
-"add" = "Add";
-
-/// literal translation needed
-"common_hour" = "hour";
-
-/// yellow
-"yellow" = "yellow";
-
-/// literally update
-"update" = "Edit";
-
-/// 
-"delete" = "Delete";
+"common_minute" = "хв";
 
 /// literally password
-"common_password" = "Password:";
+"common_password" = "Пароль:";
 
-/// literally no, without capital
-"no" = "No";
+/// the words in range
+"common_statistics_inRange" = "В діапазоні";
 
-/// green
-"green" = "green";
-
-/// name
-"name" = "Name:";
-
-/// literal translation needed
-"common_minutes" = "mins";
-
-/// literally yes, without capital
-"yes" = "Yes";
+/// the word HIGH, in capitals
+"common_high" = "ВИСОКИЙ";
 
 /// literally 'Cancel'
-"common_cancel" = "Cancel";
+"common_cancel" = "Скасувати";
 
 /// literally warning
-"warning" = "Warning!";
+"warning" = "Увага!";
+
+/// 
+"delete" = "Видалити";
+
+/// literal translation needed
+"common_hour" = "година";
+
+/// literal translation needed
+"common_minutes" = "хвилини";
+
+/// the word low
+"common_statistics_low" = "Низький";
+
+/// can be used in several screens, just the words Bloodglucose unit
+"common_bloodglucoseunit" = "Одиниця рівню цукру";
+
+/// literally 'OK'
+"common_Ok" = "Ок";
+
+/// the word today
+"common_today" = "Сьогодні";
+
+/// literal translation needed
+"common_dayshort" = "д";
+
+/// mmol/l
+"common_mmol" = "ммоль/л";
+
+/// literally add
+"add" = "Додати";
+
+/// literally yes, without capital
+"yes" = "Так";
+
+/// mg/dl
+"common_mgdl" = "мг/дл";
 
 /// white
-"white" = "white";
+"white" = "білий";
 
 /// WiFi
 "WiFi" = "WiFi";
 
-/// mg/dl
-"common_mgdl" = "mg/dl";
+/// on
+"on" = "Увімкнути";
 
-/// whenever invalid value is given by user somewhere in a field
-"invalidValue" = "Invalid Value";
+/// don't show again
+"common_dontshowagain" = "Не показуйте більше";
 
-/// general usage
-"unknown" = "Unknown";
+/// green
+"green" = "зелений";
 
-/// the word HIGH, in capitals
-"common_high" = "HIGH";
+/// the word LOW, in capitals
+"common_low" = "НИЗЬКИЙ";
 
-/////////////////////////////////////////////////////////////////////////////////////////////
-/////   Translation needed - remove this header after translation                       /////
-/////////////////////////////////////////////////////////////////////////////////////////////
+/// yellow
+"yellow" = "жовтий";
+
+/// literal translation needed
+"common_week" = "тиждень";
+
+/// 
+"off" = "Вимкнути";
+
+/// literal translation needed
+"common_day" = "день";
+
+/// for settings row, literally firmware
+"firmware" = "Прошивка";
 
 /// Where credentials need to be given, if either account or password is invalid (for the moment only applicable to Dexcom Share
-"invalidAccountOrPassword" = "Invalid account or password";
+"invalidAccountOrPassword" = "Недійсний обліковий запис або пароль";
 
-/////////////////////////////////////////////////////////////////////////////////////////////
-/////   Translation needed - remove this header after translation                       /////
-/////////////////////////////////////////////////////////////////////////////////////////////
+/// for settings row, literally hardware
+"hardware" = "Обладнання";
 
-/// the word today
-"common_todayshort" = "Today";
-
-/// the word high
-"common_statistics_high" = "High";
+/// the word average
+"common_statistics_average" = "Середній";
 
 /// phrase HbA1c
 "common_statistics_a1c" = "HbA1c";
 
+/// to show the sensor status
+"sensorStatus" = "Статус датчика:";
+
+/// blood glucose unit in short, for text field title
+"common_bloodglucoseunit_short" = "Одиниця РЦ";
+
+/// literal translation needed
+"common_hours" = "години";
+
+/// the word high
+"common_statistics_high" = "Високий";
+
 /// coefficient of variation
 "common_statistics_cv" = "CV";
 
-/// the word low
-"common_statistics_low" = "Low";
+/// literally update
+"update" = "Змінити";
 
 /// literal translation needed
-"common_days" = "days";
-
-/// the word average
-"common_statistics_average" = "Average";
-
-/// literal translation needed
-"common_dayshort" = "d";
+"common_days" = "дні";
 
 /// the word today
-"common_today" = "Today";
+"common_todayshort" = "Сьогодні";
 
-/// the words in range
-"common_statistics_inRange" = "In Range";
+/// literally no, without capital
+"no" = "Ні";
+
+/// red
+"red" = "червоний";
+
+/// general usage
+"unknown" = "Невідомий";
 
 /// literal translation needed
-"common_hourshort" = "h";
+"common_hourshort" = "г";
 
-/////////////////////////////////////////////////////////////////////////////////////////////
-/////   Translation needed - remove this header after translation                       /////
-/////////////////////////////////////////////////////////////////////////////////////////////
+/// literally default, will be the name of default alerttypes that will be created during initial app launch
+"common_default" = "За замовчуванням";
 
-/// don't show again
-"common_dontshowagain" = "Don't Show Again";
+/// name
+"name" = "Назва:";
+
+/// whenever invalid value is given by user somewhere in a field
+"invalidValue" = "Недійсне значення";

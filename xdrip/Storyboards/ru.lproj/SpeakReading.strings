@@ -1,14 +1,46 @@
-"currentglucose" = "Сахар";
-"currenttrend" = "Тенденция";
-"currentdelta" = "Разница";
-"trendnoncomputable" = "невычислима";
-"trenddoubledown" = "к очень быстрому снижению";
-"trendsingledown" = "к быстрому снижению";
-"trendfortyfivedown" = "к снижению";
-"trendflat" = "ровная";
-"trendfortyfiveup" = "к повышению";
-"trendsingleup" = "к быстрому повышению";
-"trenddoubleup" = "к очень быстрому повышению";
-"deltanoncomputable" = "невычислима";
-"high" = "высокий";
-"low" = "низкий";
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////   Translation needed - remove this header after translation                       /////
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+/// For speak reading functionality
+"currentdelta" = "Відмінність з останнього зчитування";
+
+/// the word low
+"low" = "низький";
+
+/// 
+"trendfortyfiveup" = "вверх";
+
+/// the word high
+"high" = "високий";
+
+/// For speak reading functionality
+"deltanoncomputable" = "не обчислюваний";
+
+/// For speak reading functionality
+"trendsingledown" = "значно вниз";
+
+/// For speak reading functionality
+"currenttrend" = "Тенденція";
+
+/// For speak reading functionality
+"trendnoncomputable" = "не обчислюваний";
+
+/// For speak reading functionality
+"currentglucose" = "Ваша нинішня глюкоза в крові";
+
+/// For speak reading functionality
+"trendfortyfivedown" = "вниз";
+
+/// For speak reading functionality
+"trenddoubleup" = "різко вгору";
+
+/// For speak reading functionality
+"trendflat" = "плоский";
+
+/// For speak reading functionality
+"trenddoubledown" = "різко вниз";
+
+/// For speak reading functionality
+"trendsingleup" = "значно вгору";

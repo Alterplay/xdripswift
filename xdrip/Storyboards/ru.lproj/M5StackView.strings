@@ -1,44 +1,43 @@
 
-
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////   Translation needed - remove this header after translation                       /////
 /////////////////////////////////////////////////////////////////////////////////////////////
 
-/// in case user tires to power off the M5Stack via xdrip but it's not connected
-"deviceMustBeConnectedToPowerOff" = "M5Stack must be connected to be able to power it off";
+/// this is the text shown when clicking the cell 'where to find M5Stack software'
+"m5StackSoftWareHelpText" = "Перейти до";
 
-/// user clicks power off in M5Stack view, confirmation is needed
-"powerOffConfirm" = "Are you sure you want to power off the M5Stack?";
+/// cell text, to power off
+"powerOff" = "Вимкнути";
+
+/// In m5StickC view, one line allows to show info where to find M5Stack software, this is the text in the cell
+"m5StickCSoftWhereHelpCellText" = "Де знайти програмне забезпечення M5StickC?";
 
 /// when Bluetooth Peripheral list is shown, title of the view
 "screenTitle" = "M5Stack";
 
+/// user clicks power off in M5Stack view, confirmation is needed
+"powerOffConfirm" = "Ви впевнені, що хочете вимкнути M5Stack?";
+
 /// when M5Stickc list is shown, title of the view
 "m5StickCViewscreenTitle" = "M5StickC";
 
-/// this is the text shown when clicking the cell 'where to find M5Stack software'
-"m5StackSoftWareHelpText" = "Go to";
+/// in case M5Stack authentication failed, and M5Stack is generating a random password
+"m5StackResetRequiredWarning" = "M5Stack повинен бути скинутий, щоб створити новий тимчасовий пароль. Після закінчення натисніть ";
+
+/// In m5Stack view, one line allows to show info where to find M5Stack software, this is the text in the cell
+"m5StackSoftWhereHelpCellText" = "Де знайти програмне забезпечення M5StickC?";
 
 /// when M5Stack list is shown, title of the view
 "m5StackViewscreenTitle" = "M5Stack";
 
-/// cell text, to power off
-"powerOff" = "Power Off";
-
-/// In m5StickC view, one line allows to show info where to find M5Stack software, this is the text in the cell
-"m5StickCSoftWhereHelpCellText" = "Where to find the M5StickC software?";
-
-/// In m5Stack view, one line allows to show info where to find M5Stack software, this is the text in the cell
-"m5StackSoftWhereHelpCellText" = "Where to find the M5Stack software?";
-
 /// in case M5Stack authentication failed, and M5Stack is expecting user configured password
-"blePasswordMissingWarning" = "You need to set the password in the Settings";
+"blePasswordMissingWarning" = "Вам потрібно встановити пароль у Параметрах";
 
-/// text for cell in settings view, connect to wifi yes or no
-"connectToWiFi" = "Connect to WiFi";
+/// in case user tires to power off the M5Stack via xdrip but it's not connected
+"deviceMustBeConnectedToPowerOff" = "M5Stack повинен бути підключений, щоб мати можливість його вимкнути";
 
 /// in case M5Stack authentication failed
-"authenticationFailureWarning" = "Authentication to M5Stack Failed, either set the pre-configured password in the Settings, or, if the M5Stack does not have a preconfigured password then reset the M5Stack. M5Stack will disconnect now. You can make a new attempt by clicking ";
+"authenticationFailureWarning" = "Не вдалося аутентифікувати M5Stack, або встановіть попередньо налаштований пароль у налаштуваннях, або, якщо M5Stack не має заздалегідь налаштованого пароля, то скиньте M5Stack. M5Stack буде відключений. Ви можете зробити нову спробу, натиснувши ";
 
-/// in case M5Stack authentication failed, and M5Stack is generating a random password
-"m5StackResetRequiredWarning" = "M5Stack must be reset in order to generate a new temporary password. When done click ";
+/// text for cell in settings view, connect to wifi yes or no
+"connectToWiFi" = "Підключіться до WiFi";

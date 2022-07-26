@@ -1,9 +1,10 @@
+
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////   Translation needed - remove this header after translation                       /////
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 /// row text for overview snooze. Not snoozed alarm
-"not_snoozed" = "Not snoozed";
+"not_snoozed" = "Не відкладати";
 
 /// row text for overview snooze. Snoozed alarm, until .. followed by timestamp
-"snoozed_until" = "Snoozed till";
+"snoozed_until" = "Відкласти до";

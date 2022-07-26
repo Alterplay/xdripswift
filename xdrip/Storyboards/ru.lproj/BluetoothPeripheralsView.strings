@@ -3,17 +3,17 @@
 /////   Translation needed - remove this header after translation                       /////
 /////////////////////////////////////////////////////////////////////////////////////////////
 
+/// title of the cell where transmitter battery level is shown in detailed screen
+"batteryLevel" = "Рівень заряду акумулятора:";
+
 /// when Bluetooth Peripheral list is shown, title of the view
 "screenTitle" = "Bluetooth";
 
-/// when clicking add button in screen with list of bluetoothperipherals, title of pop up where user  needs to select bluetooth peripheral category
-"selectCategory" = "Select Device Type";
+/// When adding a new cgm transmitter, but the user has another one already which is either connected or trying to connect
+"noMultipleActiveCGMsAllowed" = "Ви не можете мати більше ніж один CGM передавач який підключений або сканується.\nПеревірте інші свої передавачі CGM та натисніть «Зупинити сканування», «Від'єднати» або просто видаліть їх";
 
-/// title of the cell where transmitter battery level is shown in detailed screen
-"batteryLevel" = "Battery Level:";
+/// when clicking add button in screen with list of bluetoothperipherals, title of pop up where user  needs to select bluetooth peripheral category
+"selectCategory" = "Виберіть тип пристрою";
 
 /// when clicking add button in screen with list of bluetoothperipherals, after having selected the category, a new pop up appears, this is the title of pop up where user  needs to select bluetooth peripheral type
-"selectType" = "Select Transmitter Type";
-
-/// When adding a new cgm transmitter, but the user has another one already which is either connected or trying to connect
-"noMultipleActiveCGMsAllowed" = "You cannot have more than one CGM Transmitter which is connected or being scanned for.\nVerify your other CGM Transmitters and click 'Stop Scanning', 'Disconnect' or just delete them";
+"selectType" = "Виберіть тип передавача";
