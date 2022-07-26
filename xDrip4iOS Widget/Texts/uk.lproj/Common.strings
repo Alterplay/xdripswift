@@ -1,7 +1,7 @@
-"common_mgdl" = "mg/dl";
-"common_mmol" = "mmol/l";
-"common_high" = "HIGH";
-"common_low" = "LOW";
-"common_minutes" = "mins";
-"common_minute" = "min";
-"ago" = "ago";
+"common_mgdl" = "мг/дл";
+"common_mmol" = "ммоль/л";
+"common_high" = "ВИСОКИЙ";
+"common_low" = "НИЗЬКИЙ";
+"common_minutes" = "хв";
+"common_minute" = "хв";
+"ago" = "тому";

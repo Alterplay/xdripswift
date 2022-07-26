@@ -4,124 +4,124 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 /// Text in button on home screen
-"unlock" = "Unlock";
+"unlock" = "Розблокувати";
 
 /// when user starts scanning for bluetooth device, but bluetooth is not authorized
-"bluetoothIsNotAuthorized" = "You did not give bluetooth permission for %@. Go to the settings, find the %@ app, and enable Bluetooth.";
+"bluetoothIsNotAuthorized" = "Ви не надали дозвіл до Bluetooth для %@. Перейдіть до параметрів, знайдіть %@ застосунок і ввімкніть Bluetooth.";
 
 /// Text in button on home screen
-"presnooze" = "Snooze";
+"presnooze" = "Відкласти";
 
 /// Info message to explain screen lock function
-"screenlockinfo" = "This will keep the screen awake until you move to another app or click Unlock.\r\n\nIt is recommended that you keep the phone plugged into a charger to prevent battery drain.";
+"screenlockinfo" = "Це дозволить тримати екран активним, поки ви не перейдете до іншого додатка або не натиснете розблокувати.\r\n\nРекомендується тримати телефон, підключеним до зарядного пристрою, щоб запобігти розрядження акумулятора.";
 
 /// status info : literally 'not started', used if sensor is not started
-"notstarted" = "Not Started";
+"notstarted" = "Не запущено";
 
 /// for home view, user clicks calibrate but there's no reading yet
-"theremustbeareadingbeforecalibration" = "There must be at least two readings before you can calibrate. You will be requested to calibrate as soon as there is another reading.";
+"theremustbeareadingbeforecalibration" = "Повинно бути щонайменше два зчитування, перш ніж ви зможете калібрувати. Вам буде запропоновано відкалібрувати, як тільки відбудеться ще одне зчитування.";
 
 /// If transmitter needs pairing, a notification was fired, user clicked it more than 60 seconds later, which is too late
-"transmitterpairingtoolate" = "Too late! The Transmitter has already been disconnected. You should get a new pairing request in a few minutes.";
+"transmitterpairingtoolate" = "Запізно! Передавач вже відключений. Ви повинні отримати новий запит на з'єднання за кілька хвилин.";
 
 /// Screen Lock Title
-"screenlocktitle" = "Screen Lock Enabled";
+"screenlocktitle" = "Блокування екрана ввімкнено";
 
 /// for home view, Info how to start : set transmitter and id, then go back to home screen, start scanning
-"transmitterinfo" = "First go to the Bluetooth screen where you can add and scan for your transmitter.\r\n\nThen come back to the Home screen and start your sensor.";
+"transmitterinfo" = "Спочатку перейдіть на екран Bluetooth, де ви можете додати та сканувати передавач.\r\n\nПотім поверніться на головний екран і запустіть датчик.";
 
 /// when user clicks transmitterButton, this is the action to start the sensor
-"startsensor" = "Start Sensor";
+"startsensor" = "Запуск датчика";
 
 /// for home view, title of pop up that gives info about how to select the transmitter. Simply the word Info
-"info" = "Please Read";
+"info" = "Будь ласка, прочитайте";
 
 /// To give result about transitter result in notification body, failed
-"failed" = "Failed";
+"failed" = "Провалився";
 
 /// Error message in case Dexcom G5 (and G6?) battery is too low. This is deteced by wrong G5 values 2096896
-"dexcomBatteryTooLow" = "The Transmitter battery is too low!";
+"dexcomBatteryTooLow" = "Рівень заряду акумулятору передавача занадто низький";
 
 /// When user clicks stop sensor, ask confirmation
-"stopSensorConfirmation" = "Are you sure you want to stop the sensor?";
+"stopSensorConfirmation" = "Ви впевнені, що хочете зупинити датчик?";
 
 /// for home view, where it say how old the reading is, 'x minutes ago', literaly translation of 'ago'
-"ago" = "ago";
+"ago" = "тому";
 
 /// Text in button on home screen
-"lock" = "Lock";
+"lock" = "Замкнути";
 
 /// To give info to user that the transmitter pairing requeset timed out
-"transmitterpairingattempttimeout" = "Transmitter did not reply to pairing request.";
+"transmitterpairingattempttimeout" = "Передавач не відповів на запит з'єднання.";
 
 /// if web oop enabled, and also if transmitter supports this, user clicks calibrate button, but calibration is not possible
-"calibrationNotNecessary" = "When using the Libre algoritm, it is not necessary to calibrate the sensor.";
+"calibrationNotNecessary" = "При використанні алгоритму Libre не потрібно калібрувати датчик.";
 
 /// status info : literally 'Last connection', shows when the last connection to a transmitter occured
-"lastconnection" = "Last Connection";
+"lastconnection" = "Останнє з'єднання";
 
 /// when user clicks transmitterButton, this is the first action, to show the status
-"statusactiontitle" = "Status";
+"statusactiontitle" = "Статус";
 
 /// when user starts scanning but bluetooth is not on
-"bluetoothisnoton" = "Bluetooth is not on. Switch on bluetooth first and then try again.";
+"bluetoothisnoton" = "Bluetooth не ввімкнено. Спочатку увімкніть Bluetooth, а потім повторіть спробу.";
 
 /// for home view, user clicks calibrate but there's no sensor started yet
-"startsensorbeforecalibration" = "You cannot calibrate unless you have started a sensor.";
+"startsensorbeforecalibration" = "Ви не можете калібрувати, якщо ви не запустили датчик.";
 
 /// Literally 'Sensor', used as name in the button in the home screen, but also in text in pop ups
-"sensor" = "Sensor";
+"sensor" = "Датчик";
 
 /// status info : literally 'Transmitter Battery Level', shows the battery level
-"transmitterbatterylevel" = "Transmitter Battery Level";
+"transmitterbatterylevel" = "Рівень заряду акумулятора передавача";
 
 /// for home view, license info
-"licenseinfo" = "This program is free software distributed under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.\r\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY.\r\n\nSee http://www.gnu.org/licenses/gpl.txt for more details.\r\n\r\nInfo: ";
+"licenseinfo" = "Цей застосунок є безкоштовним програмним забезпеченням, розповсюдженим за умовами загальної публічної ліцензії GNU, опублікованої Фондом вільного програмного забезпечення, версією 3 ліцензії, або будь-якою подальшою версією.\r\n\nЦя програма розповсюджується з надією, що вона буде корисною, але БЕЗ ЖОДНИХ ГАРАНТІЙ.\r\n\nДля більшої інформації перегляньте http://www.gnu.org/licenses/gpl.txt.\r\n\r\nИнфо: ";
 
 /// when user clicks transmitterButton, this is the action to start scanning
-"scanbluetoothdeviceactiontitle" = "Scan for Transmitter";
+"scanbluetoothdeviceactiontitle" = "Сканування передавача";
 
 /// After clicking scan button, this message will appear
-"startScanningInfo" = "Scanning Started.\n\nKeep %@ open in the foreground until a connection is made.\n\n(There's no need to turn off Auto-Lock. Just don't press the home button and don't lock your iPhone)";
+"startScanningInfo" = "Сканування розпочалося.\n\nЗберігайте %@ відкритим, поки не буде здійснено з'єднання.\n\n(Немає необхідності вимикати автоматичне блокування. Просто не натискайте кнопку «Додому» та не блокуйте свій iPhone)";
 
 /// Text in button on home screen
-"calibrate" = "Calibrate";
+"calibrate" = "Калібрувати";
 
 /// when user clicks transmitterButton, this is the action to forget the device, so that user can scan for a new device, in case user switches device
-"forgetbluetoothdeviceactiontitle" = "Forget Transmitter";
+"forgetbluetoothdeviceactiontitle" = "Забути передавач";
 
 /// when user manually starts sensor, this is the message that explains that time should be correct
-"startsensortimeinfo" = "In the next dialogs, you will need to set the date and time the sensor was inserted. It is important that you set the date and time as correct as possible.";
+"startsensortimeinfo" = "У наступних діалогових вікнах вам потрібно буде встановити дату та час встановлення датчика. Важливо, щоб ви якомога точніше встановили дату й час.";
 
 /// when user manually starts scanning, this is the message that scanning is ongoing
-"scanbluetoothdeviceongoing" = "Scanning for Transmitter...";
+"scanbluetoothdeviceongoing" = "Сканування передавача...";
 
 /// When user needs to enter sensor code, to start firefly sensor
-"enterSensorCode" = "if you don't have a sensor code use 0000 but be aware that you will not get readings until you calibrate";
+"enterSensorCode" = "Якщо у вас немає коду датчика, використовуйте 0000, але майте на увазі, що ви не отримаєте зчитування, поки не калібруєте";
 
 /// status info : literally 'not known', used if transmitter name is not known
-"notknown" = "Not Known";
+"notknown" = "Невідомо";
 
 /// To give info to user that the transmitter is successfully paired
-"transmitterpairingsuccessful" = "The Transmitter was successfully paired.";
+"transmitterpairingsuccessful" = "Передавач успішно приєднаний.";
 
 /// when user clicks transmitterButton, this is the action to stop the sensor
-"stopsensor" = "Stop Sensor";
+"stopsensor" = "Зупиніть датчик";
 
 /// status info : literally 'Sensor Start'
-"sensorstart" = "Sensor Started";
+"sensorstart" = "Датчик запущений";
 
 /// status info : literally 'Sensor End'
-"sensorend" = "Sensor Ends";
+"sensorend" = "Датчик закінчується";
 
 /// for home view, miaomiao doesn't detect a sensor
-"sensornotdetected" = "The sensor was not detected. Check if the Transmitter is correctly placed on the sensor.";
+"sensornotdetected" = "Датчик не виявлений. Перевірте, чи правильно передавач розміщений на датчику.";
 
 /// To give result about transitter result in notification body, successful
-"success" = "Success";
+"success" = "Успішно";
 
 /// When user has no CGM transmitter created with 'Always connect', and tries to calibrate, then this message is shown
-"theresNoCGMTransmitterActive" = "You cannot calibrate unless you have a transmitter connected.";
+"theresNoCGMTransmitterActive" = "Ви не можете калібрувати, якщо у вас не підключений передавач.";
 
 /// If transmitter needs pairing, user needs to click the notification
-"transmitternotpaired" = "The Transmitter is not paired with this iPhone. Open the application.";
+"transmitternotpaired" = "Передавач не поєднаний з цим iPhone. Відкрийте програму.";

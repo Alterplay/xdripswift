@@ -4,43 +4,43 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 /// For speak reading functionality
-"currentdelta" = "Difference from last reading is";
+"currentdelta" = "Відмінність з останнього зчитування";
 
 /// the word low
-"low" = "low";
+"low" = "низький";
 
 /// 
-"trendfortyfiveup" = "up";
+"trendfortyfiveup" = "вверх";
 
 /// the word high
-"high" = "high";
+"high" = "високий";
 
 /// For speak reading functionality
-"deltanoncomputable" = "non computable";
+"deltanoncomputable" = "не обчислюваний";
 
 /// For speak reading functionality
-"trendsingledown" = "significantly downward";
+"trendsingledown" = "значно вниз";
 
 /// For speak reading functionality
-"currenttrend" = "It's trending";
+"currenttrend" = "Тенденція";
 
 /// For speak reading functionality
-"trendnoncomputable" = "non computable";
+"trendnoncomputable" = "не обчислюваний";
 
 /// For speak reading functionality
-"currentglucose" = "Your current blood glucose is";
+"currentglucose" = "Ваша нинішня глюкоза в крові";
 
 /// For speak reading functionality
-"trendfortyfivedown" = "down";
+"trendfortyfivedown" = "вниз";
 
 /// For speak reading functionality
-"trenddoubleup" = "dramatically upward";
+"trenddoubleup" = "різко вгору";
 
 /// For speak reading functionality
-"trendflat" = "flat";
+"trendflat" = "плоский";
 
 /// For speak reading functionality
-"trenddoubledown" = "dramatically downward";
+"trenddoubledown" = "різко вниз";
 
 /// For speak reading functionality
-"trendsingleup" = "significantly upward";
+"trendsingleup" = "значно вгору";

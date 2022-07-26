@@ -4,145 +4,145 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 /// literal translation needed
-"common_minute" = "min";
+"common_minute" = "хв";
 
 /// literally password
-"common_password" = "Password:";
+"common_password" = "Пароль:";
 
 /// the words in range
-"common_statistics_inRange" = "In Range";
+"common_statistics_inRange" = "В діапазоні";
 
 /// the word HIGH, in capitals
-"common_high" = "HIGH";
+"common_high" = "ВИСОКИЙ";
 
 /// literally 'Cancel'
-"common_cancel" = "Cancel";
+"common_cancel" = "Скасувати";
 
 /// literally warning
-"warning" = "Warning!";
+"warning" = "Увага!";
 
 /// 
-"delete" = "Delete";
+"delete" = "Видалити";
 
 /// literal translation needed
-"common_hour" = "hour";
+"common_hour" = "година";
 
 /// literal translation needed
-"common_minutes" = "mins";
+"common_minutes" = "хвилини";
 
 /// the word low
-"common_statistics_low" = "Low";
+"common_statistics_low" = "Низький";
 
 /// can be used in several screens, just the words Bloodglucose unit
-"common_bloodglucoseunit" = "Blood Glucose Unit";
+"common_bloodglucoseunit" = "Одиниця рівню цукру";
 
 /// literally 'OK'
-"common_Ok" = "OK";
+"common_Ok" = "Ок";
 
 /// the word today
-"common_today" = "Today";
+"common_today" = "Сьогодні";
 
 /// literal translation needed
-"common_dayshort" = "d";
+"common_dayshort" = "д";
 
 /// mmol/l
-"common_mmol" = "mmol/l";
+"common_mmol" = "ммоль/л";
 
 /// literally add
-"add" = "Add";
+"add" = "Додати";
 
 /// literally yes, without capital
-"yes" = "Yes";
+"yes" = "Так";
 
 /// mg/dl
-"common_mgdl" = "mg/dl";
+"common_mgdl" = "мг/дл";
 
 /// white
-"white" = "white";
+"white" = "білий";
 
 /// WiFi
 "WiFi" = "WiFi";
 
 /// on
-"on" = "On";
+"on" = "Увімкнути";
 
 /// don't show again
-"common_dontshowagain" = "Don't Show Again";
+"common_dontshowagain" = "Не показуйте більше";
 
 /// green
-"green" = "green";
+"green" = "зелений";
 
 /// the word LOW, in capitals
-"common_low" = "LOW";
+"common_low" = "НИЗЬКИЙ";
 
 /// yellow
-"yellow" = "yellow";
+"yellow" = "жовтий";
 
 /// literal translation needed
-"common_week" = "week";
+"common_week" = "тиждень";
 
 /// 
-"off" = "Off";
+"off" = "Вимкнути";
 
 /// literal translation needed
-"common_day" = "day";
+"common_day" = "день";
 
 /// for settings row, literally firmware
-"firmware" = "Firmware";
+"firmware" = "Прошивка";
 
 /// Where credentials need to be given, if either account or password is invalid (for the moment only applicable to Dexcom Share
-"invalidAccountOrPassword" = "Invalid account or password";
+"invalidAccountOrPassword" = "Недійсний обліковий запис або пароль";
 
 /// for settings row, literally hardware
-"hardware" = "Hardware";
+"hardware" = "Обладнання";
 
 /// the word average
-"common_statistics_average" = "Average";
+"common_statistics_average" = "Середній";
 
 /// phrase HbA1c
 "common_statistics_a1c" = "HbA1c";
 
 /// to show the sensor status
-"sensorStatus" = "Sensor status:";
+"sensorStatus" = "Статус датчика:";
 
 /// blood glucose unit in short, for text field title
-"common_bloodglucoseunit_short" = "BG Unit";
+"common_bloodglucoseunit_short" = "Одиниця РЦ";
 
 /// literal translation needed
-"common_hours" = "hours";
+"common_hours" = "години";
 
 /// the word high
-"common_statistics_high" = "High";
+"common_statistics_high" = "Високий";
 
 /// coefficient of variation
 "common_statistics_cv" = "CV";
 
 /// literally update
-"update" = "Edit";
+"update" = "Змінити";
 
 /// literal translation needed
-"common_days" = "days";
+"common_days" = "дні";
 
 /// the word today
-"common_todayshort" = "Today";
+"common_todayshort" = "Сьогодні";
 
 /// literally no, without capital
-"no" = "No";
+"no" = "Ні";
 
 /// red
-"red" = "red";
+"red" = "червоний";
 
 /// general usage
-"unknown" = "Unknown";
+"unknown" = "Невідомий";
 
 /// literal translation needed
-"common_hourshort" = "h";
+"common_hourshort" = "г";
 
 /// literally default, will be the name of default alerttypes that will be created during initial app launch
-"common_default" = "Default";
+"common_default" = "За замовчуванням";
 
 /// name
-"name" = "Name:";
+"name" = "Назва:";
 
 /// whenever invalid value is given by user somewhere in a field
-"invalidValue" = "Invalid Value";
+"invalidValue" = "Недійсне значення";

@@ -4,49 +4,49 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 /// New button text.
-"treatments_new_button" = "New";
+"treatments_new_button" = "Новий";
 
 /// New entry view title.
-"treatments_new_entry" = "New Treatment";
+"treatments_new_entry" = "Нове лікування";
 
 /// Exercise unit.
-"treatments_exercise_unit" = "min";
+"treatments_exercise_unit" = "хв";
 
 /// Insulin.
-"treatments_insulin" = "Insulin";
+"treatments_insulin" = "Інсулін";
 
 /// 
-"treatments_sync_complete" = "Synchronization complete.";
+"treatments_sync_complete" = "Синхронізація завершена.";
 
 /// 
-"treatments_carbs_with_unit" = "Carbs (g):";
+"treatments_carbs_with_unit" = "Вуглеводи (г):";
 
 /// Insulin unit.
-"treatments_insulin_unit" = "U";
+"treatments_insulin_unit" = "Од";
 
 /// 
-"treatments_success" = "Success";
+"treatments_success" = "Успішно";
 
 /// Carbs unit.
-"treatments_carbs_unit" = "g";
+"treatments_carbs_unit" = "г";
 
 /// Carbs.
-"treatments_carbs" = "Carbs";
+"treatments_carbs" = "Вуглеводи";
 
 /// 
-"treatments_exercise_with_unit" = "Exercise (min):";
+"treatments_exercise_with_unit" = "Вправа (хв):";
 
 /// 
-"treatments_insulin_with_unit" = "Insulin (U):";
+"treatments_insulin_with_unit" = "Інсулін (Од):";
 
 /// Exercise.
-"treatments_exercise" = "Exercise";
+"treatments_exercise" = "Вправа";
 
 /// Title of treatments view.
-"treatments_title" = "Treatments";
+"treatments_title" = "Лікування";
 
 /// Blood Glucose Check
-"treatments_bgcheck" = "BG Check";
+"treatments_bgcheck" = "Перевірка рівня цукру";
 
 /// Literally a question mark, used as unknown abbreviation.
 "treatments_question_mark" = "?";
