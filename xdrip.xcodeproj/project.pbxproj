@@ -690,6 +690,7 @@
 		6D12E3A327903483005E57F0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		6D12E3A5279034BF005E57F0 /* ConsentСollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ConsentСollectionController.swift"; sourceTree = "<group>"; };
 		6D12E3A72790352E005E57F0 /* ConsentСollectionController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "ConsentСollectionController.storyboard"; sourceTree = "<group>"; };
+		6D1E9DE928901FF000E1D803 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
 		6D7553922835161700917DED /* OneLastThingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OneLastThingViewController.storyboard; sourceTree = "<group>"; };
 		6D7553942835175B00917DED /* OneLastThingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLastThingViewController.swift; sourceTree = "<group>"; };
 		6D8C9F9C2823FFAB002CB654 /* TextsNightScout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextsNightScout.swift; sourceTree = "<group>"; };
@@ -4085,6 +4086,7 @@
 				F81F370125C1582400520946 /* pt */,
 				F81F3A6125C9E5A800520946 /* es */,
 				198D44E7260A822000A2B4A2 /* sv */,
+				6D1E9DE928901FF000E1D803 /* uk */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
