@@ -467,6 +467,7 @@
 		F8DF766223E390D100063910 /* BLEPeripheral+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF766123E390D100063910 /* BLEPeripheral+CoreDataProperties.swift */; };
 		F8DF766423E781C100063910 /* BLEPeripheralAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF766323E781C100063910 /* BLEPeripheralAccessor.swift */; };
 		F8DF766D23ED9B0900063910 /* DexcomG5BluetoothPeripheralViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF766C23ED9B0900063910 /* DexcomG5BluetoothPeripheralViewModel.swift */; };
+		F8E0475E28CC8E330049D8C9 /* GlucoseData+LoopShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E0475D28CC8E330049D8C9 /* GlucoseData+LoopShare.swift */; };
 		F8E3A2A323D4E7E200E5E98A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E3A2A223D4E7E200E5E98A /* Default-568h@2x.png */; };
 		F8E3A2A523D78FBD00E5E98A /* SettingsViewAppleWatchSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E3A2A423D78FBD00E5E98A /* SettingsViewAppleWatchSettingsViewModel.swift */; };
 		F8E3A2A923D906C200E5E98A /* WatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E3A2A823D906C200E5E98A /* WatchManager.swift */; };
@@ -668,6 +669,30 @@
 		2867F5D925BC209B00AA1E98 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/LibreErrors.strings; sourceTree = "<group>"; };
 		2867F5DA25BC209C00AA1E98 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Snooze.strings; sourceTree = "<group>"; };
 		2867F5DB25BC209C00AA1E98 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/LibreNFC.strings; sourceTree = "<group>"; };
+		4166BFB528C3501400199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		4166BFB628C3501400199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Interface.strings; sourceTree = "<group>"; };
+		4166BFB728C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4166BFB828C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Main.strings; sourceTree = "<group>"; };
+		4166BFB928C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Common.strings; sourceTree = "<group>"; };
+		4166BFBB28C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Alerts.strings; sourceTree = "<group>"; };
+		4166BFBC28C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/AlertTypesSettingsView.strings; sourceTree = "<group>"; };
+		4166BFBD28C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/BluetoothPeripheralsView.strings; sourceTree = "<group>"; };
+		4166BFBE28C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/BluetoothPeripheralView.strings; sourceTree = "<group>"; };
+		4166BFBF28C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/CalibrationRequest.strings; sourceTree = "<group>"; };
+		4166BFC028C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Common.strings; sourceTree = "<group>"; };
+		4166BFC128C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/DexcomShareTestResult.strings; sourceTree = "<group>"; };
+		4166BFC228C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/ErrorMessages.strings; sourceTree = "<group>"; };
+		4166BFC328C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/HomeView.strings; sourceTree = "<group>"; };
+		4166BFC428C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4166BFC528C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/M5StackView.strings; sourceTree = "<group>"; };
+		4166BFC628C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/NightScoutTestResult.strings; sourceTree = "<group>"; };
+		4166BFC728C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/SettingsViews.strings; sourceTree = "<group>"; };
+		4166BFC828C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/SpeakReading.strings; sourceTree = "<group>"; };
+		4166BFC928C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/WatlaaView.strings; sourceTree = "<group>"; };
+		4166BFCA28C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/LibreErrors.strings; sourceTree = "<group>"; };
+		4166BFCB28C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/LibreStates.strings; sourceTree = "<group>"; };
+		4166BFCC28C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Snooze.strings; sourceTree = "<group>"; };
+		4166BFCD28C3501500199980 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/LibreNFC.strings; sourceTree = "<group>"; };
 		470B6186270C448000561E56 /* Shuggah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shuggah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		470B6189270C448000561E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		470B618B270C448100561E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -1413,6 +1438,7 @@
 		F8DF766123E390D100063910 /* BLEPeripheral+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BLEPeripheral+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F8DF766323E781C100063910 /* BLEPeripheralAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEPeripheralAccessor.swift; sourceTree = "<group>"; };
 		F8DF766C23ED9B0900063910 /* DexcomG5BluetoothPeripheralViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DexcomG5BluetoothPeripheralViewModel.swift; sourceTree = "<group>"; };
+		F8E0475D28CC8E330049D8C9 /* GlucoseData+LoopShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GlucoseData+LoopShare.swift"; sourceTree = "<group>"; };
 		F8E3A2A223D4E7E200E5E98A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F8E3A2A423D78FBD00E5E98A /* SettingsViewAppleWatchSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewAppleWatchSettingsViewModel.swift; sourceTree = "<group>"; };
 		F8E3A2A823D906C200E5E98A /* WatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchManager.swift; sourceTree = "<group>"; };
@@ -2671,6 +2697,7 @@
 		F8E51D5B2448D8A3001C9E5A /* Loop */ = {
 			isa = PBXGroup;
 			children = (
+				F8E0475D28CC8E330049D8C9 /* GlucoseData+LoopShare.swift */,
 				F8E51D5C2448D8B5001C9E5A /* LoopManager.swift */,
 			);
 			path = Loop;
@@ -3271,6 +3298,7 @@
 				tr,
 				da,
 				uk,
+				el,
 			);
 			mainGroup = F8AC425121ADEBD60078C348;
 			productRefGroup = F8AC425B21ADEBD60078C348 /* Products */;
@@ -3578,6 +3606,7 @@
 				F8B3A85D22821BB6004BA588 /* Int.swift in Sources */,
 				F808D2CE2403292C0084B5DB /* Bubble+CoreDataProperties.swift in Sources */,
 				F8A2BC1A25DB0C28001D1E78 /* CGMAtomTransmitterDelegate.swift in Sources */,
+				F8E0475E28CC8E330049D8C9 /* GlucoseData+LoopShare.swift in Sources */,
 				F816E1002436734C009EE65B /* CGMGNSEntryTransmitterDelegate.swift in Sources */,
 				F82842322752CBE00097E0C9 /* DexcomSessionStopTxMessage.swift in Sources */,
 				F8C97853242AA70D00A09483 /* MiaoMiao+CoreDataClass.swift in Sources */,
@@ -3951,6 +3980,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				470B6189270C448000561E56 /* Base */,
+				4166BFB628C3501400199980 /* el */,
 			);
 			name = Interface.storyboard;
 			sourceTree = "<group>";
@@ -3973,6 +4003,7 @@
 				F81F3C1025D096C000520946 /* zh */,
 				198D44C6260A3A3300A2B4A2 /* sv */,
 				F8D094EF2846BDD50087FFEA /* uk */,
+				4166BFBD28C3501500199980 /* el */,
 			);
 			name = BluetoothPeripheralsView.strings;
 			sourceTree = "<group>";
@@ -3995,6 +4026,7 @@
 				F81F3C0925D094CF00520946 /* zh */,
 				198D44D8260A3A3400A2B4A2 /* sv */,
 				F8D094FE2846BDD70087FFEA /* uk */,
+				4166BFCD28C3501500199980 /* el */,
 			);
 			name = LibreNFC.strings;
 			sourceTree = "<group>";
@@ -4017,6 +4049,7 @@
 				F81F3C0F25D096BC00520946 /* zh */,
 				198D44C7260A3A3300A2B4A2 /* sv */,
 				F8D094F02846BDD50087FFEA /* uk */,
+				4166BFBE28C3501500199980 /* el */,
 			);
 			name = BluetoothPeripheralView.strings;
 			sourceTree = "<group>";
@@ -4078,6 +4111,7 @@
 				F88EC12525F6CFC500DF0EAF /* sl */,
 				198D44D3260A3A3400A2B4A2 /* sv */,
 				F8D094FA2846BDD70087FFEA /* uk */,
+				4166BFC928C3501500199980 /* el */,
 			);
 			name = WatlaaView.strings;
 			sourceTree = "<group>";
@@ -4100,6 +4134,7 @@
 				F81F3C0B25D0968D00520946 /* zh */,
 				198D44D6260A3A3400A2B4A2 /* sv */,
 				F8D094FC2846BDD70087FFEA /* uk */,
+				4166BFCB28C3501500199980 /* el */,
 			);
 			name = LibreStates.strings;
 			sourceTree = "<group>";
@@ -4110,6 +4145,7 @@
 				F870D3D825126A49008967B0 /* Base */,
 				2867F5C725BC209400AA1E98 /* fi */,
 				F81F3A5F25C9E5A800520946 /* es */,
+				4166BFB528C3501400199980 /* el */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -4132,6 +4168,7 @@
 				F81F3C0E25D096A900520946 /* zh */,
 				198D44CE260A3A3400A2B4A2 /* sv */,
 				F8D094F62846BDD60087FFEA /* uk */,
+				4166BFC528C3501500199980 /* el */,
 			);
 			name = M5StackView.strings;
 			sourceTree = "<group>";
@@ -4155,6 +4192,7 @@
 				F81F3A6125C9E5A800520946 /* es */,
 				198D44E7260A822000A2B4A2 /* sv */,
 				6D1E9DE928901FF000E1D803 /* uk */,
+				4166BFB828C3501500199980 /* el */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -4175,6 +4213,7 @@
 				2867F5C825BC209400AA1E98 /* fi */,
 				F81F36FD25C1580700520946 /* pt */,
 				F81F3A6025C9E5A800520946 /* es */,
+				4166BFB728C3501500199980 /* el */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -4197,6 +4236,7 @@
 				F81F3C0C25D0969100520946 /* zh */,
 				198D44D5260A3A3400A2B4A2 /* sv */,
 				F8D094FB2846BDD70087FFEA /* uk */,
+				4166BFCA28C3501500199980 /* el */,
 			);
 			name = LibreErrors.strings;
 			sourceTree = "<group>";
@@ -4219,6 +4259,7 @@
 				F81F3C0425D0947E00520946 /* sl */,
 				198D44CF260A3A3400A2B4A2 /* sv */,
 				F8D094F72846BDD60087FFEA /* uk */,
+				4166BFC628C3501500199980 /* el */,
 			);
 			name = NightScoutTestResult.strings;
 			sourceTree = "<group>";
@@ -4241,6 +4282,7 @@
 				F81F3BFA25D0944900520946 /* sl */,
 				198D44C4260A3A3300A2B4A2 /* sv */,
 				F8D094ED2846BDD50087FFEA /* uk */,
+				4166BFBB28C3501500199980 /* el */,
 			);
 			name = Alerts.strings;
 			sourceTree = "<group>";
@@ -4263,6 +4305,7 @@
 				F81F3BFB25D0944D00520946 /* sl */,
 				198D44C5260A3A3300A2B4A2 /* sv */,
 				F8D094EE2846BDD50087FFEA /* uk */,
+				4166BFBC28C3501500199980 /* el */,
 			);
 			name = AlertTypesSettingsView.strings;
 			sourceTree = "<group>";
@@ -4285,6 +4328,7 @@
 				F81F3A7025C9E5A800520946 /* es */,
 				198D44D2260A3A3400A2B4A2 /* sv */,
 				F8D094F92846BDD60087FFEA /* uk */,
+				4166BFC828C3501500199980 /* el */,
 			);
 			name = SpeakReading.strings;
 			sourceTree = "<group>";
@@ -4307,6 +4351,7 @@
 				F81F3C0225D0946500520946 /* sl */,
 				198D44CC260A3A3400A2B4A2 /* sv */,
 				F8D094F52846BDD60087FFEA /* uk */,
+				4166BFC328C3501500199980 /* el */,
 			);
 			name = HomeView.strings;
 			sourceTree = "<group>";
@@ -4329,6 +4374,7 @@
 				F81F3BFE25D0945700520946 /* sl */,
 				198D44C8260A3A3300A2B4A2 /* sv */,
 				F8D094F12846BDD60087FFEA /* uk */,
+				4166BFBF28C3501500199980 /* el */,
 			);
 			name = CalibrationRequest.strings;
 			sourceTree = "<group>";
@@ -4350,6 +4396,7 @@
 				F81F36FE25C1581000520946 /* pt */,
 				F81F3A6C25C9E5A800520946 /* es */,
 				198D44CD260A3A3400A2B4A2 /* sv */,
+				4166BFC428C3501500199980 /* el */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -4372,6 +4419,7 @@
 				F81F3BFF25D0945A00520946 /* sl */,
 				198D44C9260A3A3300A2B4A2 /* sv */,
 				F8D094F22846BDD60087FFEA /* uk */,
+				4166BFC028C3501500199980 /* el */,
 			);
 			name = Common.strings;
 			sourceTree = "<group>";
@@ -4394,6 +4442,7 @@
 				F81F3C0125D0946100520946 /* sl */,
 				198D44CB260A3A3300A2B4A2 /* sv */,
 				F8D094F42846BDD60087FFEA /* uk */,
+				4166BFC228C3501500199980 /* el */,
 			);
 			name = ErrorMessages.strings;
 			sourceTree = "<group>";
@@ -4416,6 +4465,7 @@
 				F88EC12325F6CFB200DF0EAF /* sl */,
 				198D44D1260A3A3400A2B4A2 /* sv */,
 				F8D094F82846BDD60087FFEA /* uk */,
+				4166BFC728C3501500199980 /* el */,
 			);
 			name = SettingsViews.strings;
 			sourceTree = "<group>";
@@ -4438,6 +4488,7 @@
 				F88EC17725FABAB800DF0EAF /* sl */,
 				198D44C3260A3A3300A2B4A2 /* sv */,
 				F8D094EB2846BDD50087FFEA /* uk */,
+				4166BFB928C3501500199980 /* el */,
 			);
 			name = Common.strings;
 			sourceTree = "<group>";
@@ -4460,6 +4511,7 @@
 				F81F3C0A25D094D300520946 /* zh */,
 				198D44D7260A3A3400A2B4A2 /* sv */,
 				F8D094FD2846BDD70087FFEA /* uk */,
+				4166BFCC28C3501500199980 /* el */,
 			);
 			name = Snooze.strings;
 			sourceTree = "<group>";
@@ -4482,6 +4534,7 @@
 				F81F3C0025D0945E00520946 /* sl */,
 				198D44CA260A3A3300A2B4A2 /* sv */,
 				F8D094F32846BDD60087FFEA /* uk */,
+				4166BFC128C3501500199980 /* el */,
 			);
 			name = DexcomShareTestResult.strings;
 			sourceTree = "<group>";
@@ -4498,14 +4551,14 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4178;
+				CURRENT_PROJECT_VERSION = 4183;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Watch_App_WatchKit_Extension;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.alty.xdripswift;
 				MAIN_APP_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				MARKETING_VERSION = 4.10.5;
+				MARKETING_VERSION = 4.11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.watchkitapp-new";
 				PRODUCT_NAME = Shuggah;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4527,14 +4580,14 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4178;
+				CURRENT_PROJECT_VERSION = 4183;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Watch_App_WatchKit_Extension;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.alty.xdripswift;
 				MAIN_APP_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				MARKETING_VERSION = 4.10.5;
+				MARKETING_VERSION = 4.11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.watchkitapp-new";
 				PRODUCT_NAME = Shuggah;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4553,7 +4606,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4178;
+				CURRENT_PROJECT_VERSION = 4183;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Watch App WatchKit Extension/Info.plist";
@@ -4567,7 +4620,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MAIN_APP_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				MARKETING_VERSION = 4.10.5;
+				MARKETING_VERSION = 4.11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.watchkitapp-new.watchkitextension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -4585,7 +4638,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4178;
+				CURRENT_PROJECT_VERSION = 4183;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Watch App WatchKit Extension/Info.plist";
@@ -4599,7 +4652,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MAIN_APP_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				MARKETING_VERSION = 4.10.5;
+				MARKETING_VERSION = 4.11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.watchkitapp-new.watchkitextension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -4618,7 +4671,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(XDRIP_WIDGET_ENTITLEMENTS_DEBUG)";
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_DEBUG)";
 				CODE_SIGN_STYLE = "$(XDRIP_CODE_SIGN_STYLE)";
-				CURRENT_PROJECT_VERSION = 4178;
+				CURRENT_PROJECT_VERSION = 4183;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				INFOPLIST_FILE = "xDrip4iOS Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -4627,7 +4680,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 4.10.5;
+				MARKETING_VERSION = 4.11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.xDrip4iOS-Widget-new";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -4643,7 +4696,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(XDRIP_WIDGET_ENTITLEMENTS_RELEASE)";
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_RELEASE)";
 				CODE_SIGN_STYLE = "$(XDRIP_CODE_SIGN_STYLE)";
-				CURRENT_PROJECT_VERSION = 4178;
+				CURRENT_PROJECT_VERSION = 4183;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				INFOPLIST_FILE = "xDrip4iOS Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -4652,7 +4705,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 4.10.5;
+				MARKETING_VERSION = 4.11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.xDrip4iOS-Widget-new";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -4794,7 +4847,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(XDRIP_ENTITLEMENTS_DEBUG)";
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_DEBUG)";
 				CODE_SIGN_STYLE = "$(XDRIP_CODE_SIGN_STYLE)";
-				CURRENT_PROJECT_VERSION = 4178;
+				CURRENT_PROJECT_VERSION = 4183;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				INFOPLIST_FILE = "$(SRCROOT)/xdrip/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -4802,7 +4855,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.10.5;
+				MARKETING_VERSION = 4.11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alty.xdripswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4824,7 +4877,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(XDRIP_ENTITLEMENTS_RELEASE)";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4178;
+				CURRENT_PROJECT_VERSION = 4183;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				INFOPLIST_FILE = "$(SRCROOT)/xdrip/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -4832,7 +4885,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.10.5;
+				MARKETING_VERSION = 4.11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alty.xdripswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
