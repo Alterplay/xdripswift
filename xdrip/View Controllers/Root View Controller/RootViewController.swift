@@ -58,28 +58,28 @@ final class RootViewController: UIViewController {
     @IBAction func helpToolbarButtonAction(_ sender: UIBarButtonItem) {
         
         // get the 2 character language code for the App Locale (i.e. "en", "es", "nl", "fr")
-//        let languageCode = NSLocale.current.languageCode
-//
-//        // if the user has the app in a language other than English and they have the "auto translate" option selected, then load the help pages through Google Translate
-//        // important to check the the URLs actually exist in ConstansHomeView before trying to open them
-//        if let languageCode = languageCode, languageCode != ConstantsHomeView.onlineHelpBaseLocale && UserDefaults.standard.translateOnlineHelp {
-//
-//            guard let url = URL(string: ConstantsHomeView.onlineHelpURLTranslated1 + languageCode + ConstantsHomeView.onlineHelpURLTranslated2) else { return }
-//
-//            UIApplication.shared.open(url)
-//
-//        } else {
-//
-//            // so the user is running the app in English
-//            // or
-//            // NSLocale.current.languageCode returned a nil value
-//            // or
-//            // they don't want to translate so let's just load it directly
-//            guard let url = URL(string: ConstantsHomeView.onlineHelpURL) else { return }
-//
-//            UIApplication.shared.open(url)
-//
-//        }
+        let languageCode = NSLocale.current.languageCode
+
+        // if the user has the app in a language other than English and they have the "auto translate" option selected, then load the help pages through Google Translate
+        // important to check the the URLs actually exist in ConstansHomeView before trying to open them
+        if let languageCode = languageCode, languageCode != ConstantsHomeView.onlineHelpBaseLocale && UserDefaults.standard.translateOnlineHelp {
+
+            guard let url = URL(string: ConstantsHomeView.onlineHelpURLTranslated1 + languageCode + ConstantsHomeView.onlineHelpURLTranslated2) else { return }
+
+            UIApplication.shared.open(url)
+
+        } else {
+
+            // so the user is running the app in English
+            // or
+            // NSLocale.current.languageCode returned a nil value
+            // or
+            // they don't want to translate so let's just load it directly
+            guard let url = URL(string: ConstantsHomeView.onlineHelpURL) else { return }
+
+            UIApplication.shared.open(url)
+
+        }
         
     }
     
