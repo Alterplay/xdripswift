@@ -4532,14 +4532,14 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4184;
+				CURRENT_PROJECT_VERSION = 4185;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Watch_App_WatchKit_Extension;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.alty.xdripswift;
 				MAIN_APP_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				MARKETING_VERSION = 4.11.1;
+				MARKETING_VERSION = 4.11.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.watchkitapp-new";
 				PRODUCT_NAME = Shuggah;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4561,14 +4561,14 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4184;
+				CURRENT_PROJECT_VERSION = 4185;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Watch_App_WatchKit_Extension;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.alty.xdripswift;
 				MAIN_APP_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				MARKETING_VERSION = 4.11.1;
+				MARKETING_VERSION = 4.11.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.watchkitapp-new";
 				PRODUCT_NAME = Shuggah;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4587,7 +4587,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4184;
+				CURRENT_PROJECT_VERSION = 4185;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Watch App WatchKit Extension/Info.plist";
@@ -4601,7 +4601,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MAIN_APP_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				MARKETING_VERSION = 4.11.1;
+				MARKETING_VERSION = 4.11.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.watchkitapp-new.watchkitextension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -4619,7 +4619,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4184;
+				CURRENT_PROJECT_VERSION = 4185;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Watch App WatchKit Extension/Info.plist";
@@ -4633,7 +4633,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MAIN_APP_BUNDLE_IDENTIFIER = "$(MAIN_APP_BUNDLE_IDENTIFIER)";
-				MARKETING_VERSION = 4.11.1;
+				MARKETING_VERSION = 4.11.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.watchkitapp-new.watchkitextension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -4652,7 +4652,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(XDRIP_WIDGET_ENTITLEMENTS_DEBUG)";
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_DEBUG)";
 				CODE_SIGN_STYLE = "$(XDRIP_CODE_SIGN_STYLE)";
-				CURRENT_PROJECT_VERSION = 4184;
+				CURRENT_PROJECT_VERSION = 4185;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				INFOPLIST_FILE = "xDrip4iOS Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -4661,7 +4661,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 4.11.1;
+				MARKETING_VERSION = 4.11.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.xDrip4iOS-Widget-new";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -4677,7 +4677,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(XDRIP_WIDGET_ENTITLEMENTS_RELEASE)";
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_RELEASE)";
 				CODE_SIGN_STYLE = "$(XDRIP_CODE_SIGN_STYLE)";
-				CURRENT_PROJECT_VERSION = 4184;
+				CURRENT_PROJECT_VERSION = 4185;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				INFOPLIST_FILE = "xDrip4iOS Widget/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -4686,7 +4686,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 4.11.1;
+				MARKETING_VERSION = 4.11.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alty.xdripswift.xDrip4iOS-Widget-new";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -4833,7 +4833,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(XDRIP_ENTITLEMENTS_DEBUG)";
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_DEBUG)";
 				CODE_SIGN_STYLE = "$(XDRIP_CODE_SIGN_STYLE)";
-				CURRENT_PROJECT_VERSION = 4184;
+				CURRENT_PROJECT_VERSION = 4185;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				INFOPLIST_FILE = "$(SRCROOT)/xdrip/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -4841,7 +4841,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.11.1;
+				MARKETING_VERSION = 4.11.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alty.xdripswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -4862,7 +4862,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(XDRIP_ENTITLEMENTS_RELEASE)";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4184;
+				CURRENT_PROJECT_VERSION = 4185;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				INFOPLIST_FILE = "$(SRCROOT)/xdrip/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -4870,7 +4870,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 4.11.1;
+				MARKETING_VERSION = 4.11.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alty.xdripswift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
