@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -61,6 +61,8 @@
 		6D8C9FB9282403DD002CB654 /* ChartPointsScatterDownTrianglesLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FB7282403DC002CB654 /* ChartPointsScatterDownTrianglesLayer.swift */; };
 		6D8C9FBA282403DD002CB654 /* ChartPointsScatterDownTrianglesWithDropdownLineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FB8282403DD002CB654 /* ChartPointsScatterDownTrianglesWithDropdownLineLayer.swift */; };
 		6D8C9FC828240506002CB654 /* TextsQuickActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C9FC728240505002CB654 /* TextsQuickActions.swift */; };
+		6D9C1E402AC1DCEF00BF363E /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 6D9C1E3F2AC1DCEF00BF363E /* KeychainAccess */; };
+		6D9C1E422AC1DD5500BF363E /* Detector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9C1E412AC1DD5500BF363E /* Detector.swift */; };
 		6DA5E04F2835072E0035A821 /* WelcomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA5E04E2835072E0035A821 /* WelcomeViewController.storyboard */; };
 		6DA5E05128350E030035A821 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA5E05028350E030035A821 /* WelcomeViewController.swift */; };
 		CE1B2FE025D0264B00F642F5 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE1B2FD125D0264900F642F5 /* LaunchScreen.strings */; };
@@ -783,6 +785,7 @@
 		6D8C9FBD282403F9002CB654 /* TreatmentNSResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentNSResponse.swift; sourceTree = "<group>"; };
 		6D8C9FC4282404D2002CB654 /* QuickActionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickActionsManager.swift; sourceTree = "<group>"; };
 		6D8C9FC728240505002CB654 /* TextsQuickActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextsQuickActions.swift; sourceTree = "<group>"; };
+		6D9C1E412AC1DD5500BF363E /* Detector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detector.swift; sourceTree = "<group>"; };
 		6DA5E04E2835072E0035A821 /* WelcomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WelcomeViewController.storyboard; sourceTree = "<group>"; };
 		6DA5E05028350E030035A821 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		CE1B2FC825D0261500F642F5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Alerts.strings; sourceTree = "<group>"; };
@@ -1600,6 +1603,7 @@
 			files = (
 				F81F3C4225D1D91300520946 /* CoreNFC.framework in Frameworks */,
 				470824D2297484B500C52317 /* SwiftCharts in Frameworks */,
+				6D9C1E402AC1DCEF00BF363E /* KeychainAccess in Frameworks */,
 				4779BCEE2974306300515714 /* ActionClosurable in Frameworks */,
 				F821CF9722AE589E005C1E43 /* HealthKit.framework in Frameworks */,
 				4779BCF42974308F00515714 /* PieCharts in Frameworks */,
@@ -2782,6 +2786,7 @@
 				F821CF69229FC22D005C1E43 /* Network */,
 				F8F7B8E9259A7A9400C47B04 /* SavitzkyGolayFilter */,
 				F8B3A7DD226E48C1004BA588 /* SoundPlayer */,
+				6D9C1E412AC1DD5500BF363E /* Detector.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -3267,6 +3272,7 @@
 				4779BCF02974307700515714 /* CryptoSwift */,
 				4779BCF32974308F00515714 /* PieCharts */,
 				470824D1297484B500C52317 /* SwiftCharts */,
+				6D9C1E3F2AC1DCEF00BF363E /* KeychainAccess */,
 			);
 			productName = xdrip;
 			productReference = F8AC425A21ADEBD60078C348 /* xdrip.app */;
@@ -3337,6 +3343,7 @@
 				4779BCEC2974306300515714 /* XCRemoteSwiftPackageReference "ActionClosurable" */,
 				4779BCEF2974307700515714 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
 				4779BCF22974308F00515714 /* XCRemoteSwiftPackageReference "PieCharts" */,
+				6D9C1E3E2AC1DCEF00BF363E /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 			);
 			productRefGroup = F8AC425B21ADEBD60078C348 /* Products */;
 			projectDirPath = "";
@@ -3640,6 +3647,7 @@
 				F85DC2ED21CFE2F500B9F74A /* BgReading+CoreDataProperties.swift in Sources */,
 				F8A2BC0D25DB0B12001D1E78 /* Atom+BluetoothPeripheral.swift in Sources */,
 				F8F9723123A5915900C3F17D /* M5StackAuthenticateTXMessage.swift in Sources */,
+				6D9C1E422AC1DD5500BF363E /* Detector.swift in Sources */,
 				F8F9721223A5915900C3F17D /* FirmwareVersionTxMessage.swift in Sources */,
 				F80D916824F7086D006840B5 /* Libre2BluetoothPeripheralViewModel.swift in Sources */,
 				F857A334253F6A7600951BB2 /* LibreCalibrationInfo.swift in Sources */,
@@ -4560,7 +4568,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4185;
+				CURRENT_PROJECT_VERSION = 4186;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Watch_App_WatchKit_Extension;
@@ -4589,7 +4597,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4185;
+				CURRENT_PROJECT_VERSION = 4186;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Watch_App_WatchKit_Extension;
@@ -4615,7 +4623,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4185;
+				CURRENT_PROJECT_VERSION = 4186;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Watch App WatchKit Extension/Info.plist";
@@ -4647,7 +4655,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4185;
+				CURRENT_PROJECT_VERSION = 4186;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Watch App WatchKit Extension/Info.plist";
@@ -4859,7 +4867,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(XDRIP_ENTITLEMENTS_DEBUG)";
 				CODE_SIGN_IDENTITY = "$(XDRIP_CODE_SIGN_IDENTITY_DEBUG)";
 				CODE_SIGN_STYLE = "$(XDRIP_CODE_SIGN_STYLE)";
-				CURRENT_PROJECT_VERSION = 4185;
+				CURRENT_PROJECT_VERSION = 4186;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				INFOPLIST_FILE = "$(SRCROOT)/xdrip/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -4888,7 +4896,7 @@
 				CODE_SIGN_ENTITLEMENTS = "$(XDRIP_ENTITLEMENTS_RELEASE)";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4185;
+				CURRENT_PROJECT_VERSION = 4186;
 				DEVELOPMENT_TEAM = 5ZNQ56Q43Z;
 				INFOPLIST_FILE = "$(SRCROOT)/xdrip/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -4989,6 +4997,14 @@
 				kind = branch;
 			};
 		};
+		6D9C1E3E2AC1DCEF00BF363E /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -5011,6 +5027,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4779BCF22974308F00515714 /* XCRemoteSwiftPackageReference "PieCharts" */;
 			productName = PieCharts;
+		};
+		6D9C1E3F2AC1DCEF00BF363E /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6D9C1E3E2AC1DCEF00BF363E /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
 		};
 /* End XCSwiftPackageProductDependency section */
 

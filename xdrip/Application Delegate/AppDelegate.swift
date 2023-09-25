@@ -10,6 +10,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     private let quickActionsManager = QuickActionsManager()
+    private let detector = Detector()
     
     /// allow the orientation to be changed as per the settings for each individual view controller
     var restrictRotation:UIInterfaceOrientationMask = .all
@@ -19,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: - Application Life Cycle
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        detector.start()
         
         trace("in didFinishLaunchingWithOptions", log: log, category: ConstantsLog.categoryAppDelegate, type: .info)
         
